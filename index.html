@@ -21,7 +21,7 @@
         <div class="max-w-6xl mx-auto flex items-center gap-6">
             <div>
                 <h1 class="text-3xl font-bold">Virginia Energy & AI Legislation Dashboard</h1>
-                <p class="text-white/80 mt-2">Consultative tracking of state-level data center impact and regulatory sentiment.</p>
+                <p class="text-white/80 mt-2">Track regulatory sentiment across Virginia over bills concerning data center impacts</p>
                 <div class="mt-4 text-sm font-semibold bg-white/10 inline-block px-3 py-1 rounded">
                     Live Data Feed: <span id="status-indicator" class="text-green-300">Active</span>
                 </div>
@@ -54,14 +54,16 @@
                 grid.innerHTML = '';
 
                 bills.forEach(bill => {
-                    // Fallback handlers to prevent "undefined"
                     const id = bill.id || "Unknown ID";
                     const headline = bill.headline || bill.summary || "Pending AI Update...";
                     const fullSummary = bill.full_summary || bill.summary || "Please run the GitHub Action to generate the full summary.";
                     const score = bill.sentiment_score || 0;
                     const supporters = bill.supporters || "Pending Data";
                     const opponents = bill.opponents || "Pending Data";
-                    const link = bill.link || "#";
+                    
+                    // Generate a smart Google Search link
+                    const searchQuery = encodeURIComponent(id + " Virginia data center legislation");
+                    const searchLink = "https://www.google.com/search?q=" + searchQuery;
 
                     // Determine color based on likelihood to pass
                     let sentimentColor = 'bg-red-500';
@@ -102,10 +104,10 @@
                                 </div>
                                 
                                 <div class="mt-6 pt-4 border-t border-slate-100">
-                                    <a href="${link}" 
+                                    <a href="${searchLink}" 
                                        target="_blank" 
-                                       class="inline-block w-full text-center bg-burnt-orange text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:brightness-95 transition">
-                                       View Original Bill Text
+                                       class="inline-block w-full text-center bg-slate-100 text-slate-700 text-sm font-semibold px-4 py-2.5 rounded-lg hover:bg-slate-200 transition">
+                                       Search for Bill Text on Google
                                     </a>
                                 </div>
                             </div>
