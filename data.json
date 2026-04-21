@@ -1,23 +1,29 @@
 [
     {
         "id": "HB 1393",
-        "summary": "This bill proposes to prevent the costs associated with new transmission and distribution infrastructure required by large energy users, such as data centers, from being socialized among all ratepayers. Instead, it aims to require these large users to bear the full cost of such grid upgrades directly related to their facilities, thereby shifting the financial burden away from residential and small business customers.",
-        "sentiment_score": 20,
-        "supporters": "Consumer advocates, residential ratepayers, small businesses, environmental groups (seeking to curb unchecked industrial expansion)",
-        "opponents": "Data center industry, utility companies, economic development agencies, large industrial energy users"
+        "headline": "End Data Center Grid Shifting",
+        "full_summary": "This bill seeks to address the allocation of grid infrastructure costs, aiming to ensure that large energy users, primarily data centers, bear a more proportionate share of the expenses associated with their substantial energy consumption. It intends to prevent these costs from being disproportionately shifted to residential and smaller commercial ratepayers, potentially leading to increased operating costs for data centers but reducing electricity burdens for other consumers.",
+        "sentiment_score": 75,
+        "supporters": "Consumer advocacy groups, residential ratepayers, small businesses, environmental organizations.",
+        "opponents": "Data center industry, large industrial energy users, economic development agencies.",
+        "link": "https://lis.virginia.gov/cgi-bin/legp604.exe?261+ful+HB1393"
     },
     {
         "id": "SB 553",
-        "summary": "This bill mandates that data centers operating within Virginia report their water consumption data to a designated state environmental agency, likely the Department of Environmental Quality (DEQ). The purpose is to enhance transparency regarding the environmental impact of data centers on local water resources, providing data for potential future policy decisions related to water conservation and usage.",
-        "sentiment_score": 40,
-        "supporters": "Environmental organizations, water conservation groups, community organizations concerned with resource depletion, state environmental agencies",
-        "opponents": "Data center industry (due to increased reporting burden, potential for negative public perception, and risk of future regulation)"
+        "headline": "Report Data Center Water Use",
+        "full_summary": "This legislation mandates that data centers disclose their water consumption, providing critical transparency regarding their environmental footprint, especially in regions facing water scarcity. The reported data would inform state agencies and policymakers, potentially guiding future water resource management strategies and encouraging more water-efficient practices within the data center industry.",
+        "sentiment_score": 88,
+        "supporters": "Environmental groups, water conservationists, local communities, state environmental agencies.",
+        "opponents": "Some data center operators (due to reporting burden or public scrutiny concerns).",
+        "link": "https://lis.virginia.gov/cgi-bin/legp604.exe?261+ful+SB553"
     },
     {
         "id": "HB 153",
-        "summary": "This bill seeks to establish more stringent regulations concerning the siting of data centers and to impose specific noise limits on their operational activities. It aims to address community concerns related to noise pollution from cooling systems and the visual impact of data center facilities, potentially restricting where new data centers can be built and increasing the operational costs for existing or planned facilities to comply with noise mitigation standards.",
-        "sentiment_score": 15,
-        "supporters": "Residential communities, local governments, environmental advocacy groups, citizens impacted by data center noise/siting",
-        "opponents": "Data center industry, economic development agencies, land developers, construction companies"
+        "headline": "Control Data Center Siting, Noise",
+        "full_summary": "This bill empowers local governments with greater authority over the placement (siting) of data centers and establishes specific limits on operational noise levels. It aims to mitigate the impact of data center development on nearby residential communities, addressing concerns about quality of life, property values, and environmental noise pollution from facilities such as cooling systems and generators.",
+        "sentiment_score": 82,
+        "supporters": "Local residents, community associations, local government officials, quality-of-life advocates.",
+        "opponents": "Data center developers, commercial real estate investors, some economic development groups.",
+        "link": "https://lis.virginia.gov/cgi-bin/legp604.exe?261+ful+HB153"
     }
 ]
