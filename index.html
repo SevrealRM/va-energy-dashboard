@@ -6,7 +6,7 @@
     <title>VA Energy Legislation Dashboard - Consultant Portal</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Custom UT Austin Aesthetic (Configuring Tailwind to use UT Burnt Orange) */
+        /* Custom UT Austin Aesthetic */
         :root {
             --ut-burnt-orange: #BF5700;
         }
@@ -19,10 +19,6 @@
 
     <header class="bg-burnt-orange text-white p-8 shadow-md">
         <div class="max-w-6xl mx-auto flex items-center gap-6">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Virginia.svg/256px-Flag_of_Virginia.svg.png" 
-                 alt="Flag of Virginia" 
-                 class="h-20 rounded shadow">
-            
             <div>
                 <h1 class="text-3xl font-bold">Virginia Energy & AI Legislation Dashboard</h1>
                 <p class="text-white/80 mt-2">Consultative tracking of state-level data center impact and regulatory sentiment.</p>
@@ -47,7 +43,6 @@
     <script>
         async function loadDashboard() {
             try {
-                // Fetch the updated JSON file
                 const response = await fetch('data.json');
                 
                 if (!response.ok) {
@@ -59,49 +54,55 @@
                 grid.innerHTML = '';
 
                 bills.forEach(bill => {
-                    // Determine color based on likelihood to pass
-                    let sentimentColor = 'bg-red-500'; // Low
-                    if (bill.sentiment_score >= 40) sentimentColor = 'bg-yellow-500'; // Medium
-                    if (bill.sentiment_score >= 70) sentimentColor = 'bg-green-500'; // High
+                    // Fallback handlers to prevent "undefined"
+                    const id = bill.id || "Unknown ID";
+                    const headline = bill.headline || bill.summary || "Pending AI Update...";
+                    const fullSummary = bill.full_summary || bill.summary || "Please run the GitHub Action to generate the full summary.";
+                    const score = bill.sentiment_score || 0;
+                    const supporters = bill.supporters || "Pending Data";
+                    const opponents = bill.opponents || "Pending Data";
+                    const link = bill.link || "#";
 
-                    // Update 3: separate Headline from Summary
-                    // Update 4: Include Link button
-                    // Update 5: Changed "Likelihood to Pass" text
+                    // Determine color based on likelihood to pass
+                    let sentimentColor = 'bg-red-500';
+                    if (score >= 40) sentimentColor = 'bg-yellow-500';
+                    if (score >= 70) sentimentColor = 'bg-green-500';
+
                     const card = `
                         <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-lg transition-shadow">
                             <div class="p-5 border-b border-slate-100 flex justify-between items-start bg-slate-50/50">
                                 <div>
-                                    <span class="text-xs font-bold text-burnt-orange uppercase tracking-wider">${bill.id}</span>
-                                    <h3 class="text-xl font-bold mt-1 text-slate-900 leading-tight">${bill.headline}</h3>
+                                    <span class="text-xs font-bold text-burnt-orange uppercase tracking-wider">${id}</span>
+                                    <h3 class="text-xl font-bold mt-1 text-slate-900 leading-tight">${headline}</h3>
                                 </div>
                             </div>
                             
                             <div class="p-5">
-                                <p class="text-sm text-slate-700 mb-6 leading-relaxed">${bill.full_summary}</p>
+                                <p class="text-sm text-slate-700 mb-6 leading-relaxed">${fullSummary}</p>
                                 
                                 <div class="mb-5 bg-slate-50 p-4 rounded-lg border border-slate-100">
                                     <div class="flex justify-between text-xs font-semibold mb-1 text-slate-600">
-                                        <span>AI prediction of success</span>
-                                        <span class="font-bold text-slate-900">${bill.sentiment_score}%</span>
+                                        <span>AI Prediction of Success</span>
+                                        <span class="font-bold text-slate-900">${score}%</span>
                                     </div>
                                     <div class="w-full bg-slate-200 rounded-full h-2.5">
-                                        <div class="${sentimentColor} h-2.5 rounded-full" style="width: ${bill.sentiment_score}%"></div>
+                                        <div class="${sentimentColor} h-2.5 rounded-full" style="width: ${score}%"></div>
                                     </div>
                                 </div>
 
                                 <div class="grid grid-cols-2 gap-4 text-sm mt-4 pt-4 border-t border-slate-200">
                                     <div>
                                         <span class="block text-xs font-bold text-green-700 uppercase mb-1">Supporters</span>
-                                        <span class="text-slate-700">${bill.supporters}</span>
+                                        <span class="text-slate-700">${supporters}</span>
                                     </div>
                                     <div>
                                         <span class="block text-xs font-bold text-red-700 uppercase mb-1">Opponents</span>
-                                        <span class="text-slate-700">${bill.opponents}</span>
+                                        <span class="text-slate-700">${opponents}</span>
                                     </div>
                                 </div>
                                 
                                 <div class="mt-6 pt-4 border-t border-slate-100">
-                                    <a href="${bill.link}" 
+                                    <a href="${link}" 
                                        target="_blank" 
                                        class="inline-block w-full text-center bg-burnt-orange text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:brightness-95 transition">
                                        View Original Bill Text
@@ -125,7 +126,6 @@
             }
         }
 
-        // Run the function when the page loads
         document.addEventListener('DOMContentLoaded', loadDashboard);
     </script>
 </body>
