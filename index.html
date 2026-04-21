@@ -3,17 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VA Energy Legislation Dashboard</title>
+    <title>VA Energy Legislation Dashboard - Consultant Portal</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom UT Austin Aesthetic (Configuring Tailwind to use UT Burnt Orange) */
+        :root {
+            --ut-burnt-orange: #BF5700;
+        }
+        .bg-burnt-orange { background-color: var(--ut-burnt-orange); }
+        .text-burnt-orange { color: var(--ut-burnt-orange); }
+        .border-burnt-orange { border-color: var(--ut-burnt-orange); }
+    </style>
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans min-h-screen">
 
-    <header class="bg-blue-900 text-white p-8 shadow-md">
-        <div class="max-w-6xl mx-auto">
-            <h1 class="text-3xl font-bold">Virginia Energy & AI Legislation Dashboard</h1>
-            <p class="text-blue-200 mt-2">Consultative tracking of state-level data center impact and regulatory sentiment.</p>
-            <div class="mt-4 text-sm font-semibold bg-blue-800 inline-block px-3 py-1 rounded">
-                Live Data Feed: <span id="status-indicator" class="text-green-400">Active</span>
+    <header class="bg-burnt-orange text-white p-8 shadow-md">
+        <div class="max-w-6xl mx-auto flex items-center gap-6">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Virginia.svg/256px-Flag_of_Virginia.svg.png" 
+                 alt="Flag of Virginia" 
+                 class="h-20 rounded shadow">
+            
+            <div>
+                <h1 class="text-3xl font-bold">Virginia Energy & AI Legislation Dashboard</h1>
+                <p class="text-white/80 mt-2">Consultative tracking of state-level data center impact and regulatory sentiment.</p>
+                <div class="mt-4 text-sm font-semibold bg-white/10 inline-block px-3 py-1 rounded">
+                    Live Data Feed: <span id="status-indicator" class="text-green-300">Active</span>
+                </div>
             </div>
         </div>
     </header>
@@ -21,18 +36,18 @@
     <main class="max-w-6xl mx-auto p-8">
         <div class="mb-6 border-b pb-4">
             <h2 class="text-2xl font-semibold text-slate-700">Active Bills & Proposals</h2>
-            <p class="text-slate-500 text-sm">Sentiment scores are generated via AI analysis of legislative text, sponsor history, and committee status.</p>
+            <p class="text-slate-500 text-sm">Consultant validation recommended for low-scoring legislation.</p>
         </div>
 
-        <div id="dashboard-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <p class="text-slate-500 italic" id="loading-text">Loading legislative data from AI backend...</p>
+        <div id="dashboard-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <p class="text-slate-500 italic" id="loading-text">Loading automated data analysis...</p>
         </div>
     </main>
 
     <script>
         async function loadDashboard() {
             try {
-                // Fetch the JSON file created by your GitHub Action
+                // Fetch the updated JSON file
                 const response = await fetch('data.json');
                 
                 if (!response.ok) {
@@ -41,36 +56,36 @@
                 
                 const bills = await response.json();
                 const grid = document.getElementById('dashboard-grid');
-                
-                // Clear the loading text
                 grid.innerHTML = '';
 
-                // Loop through each bill and create a card
                 bills.forEach(bill => {
                     // Determine color based on likelihood to pass
                     let sentimentColor = 'bg-red-500'; // Low
                     if (bill.sentiment_score >= 40) sentimentColor = 'bg-yellow-500'; // Medium
                     if (bill.sentiment_score >= 70) sentimentColor = 'bg-green-500'; // High
 
+                    // Update 3: separate Headline from Summary
+                    // Update 4: Include Link button
+                    // Update 5: Changed "Likelihood to Pass" text
                     const card = `
-                        <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-md transition-shadow">
-                            <div class="p-5 border-b border-slate-100 flex justify-between items-start">
+                        <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-lg transition-shadow">
+                            <div class="p-5 border-b border-slate-100 flex justify-between items-start bg-slate-50/50">
                                 <div>
-                                    <span class="text-xs font-bold text-blue-600 uppercase tracking-wider">${bill.id}</span>
-                                    <h3 class="text-lg font-bold mt-1 leading-tight">${bill.summary.substring(0, 60)}...</h3>
+                                    <span class="text-xs font-bold text-burnt-orange uppercase tracking-wider">${bill.id}</span>
+                                    <h3 class="text-xl font-bold mt-1 text-slate-900 leading-tight">${bill.headline}</h3>
                                 </div>
                             </div>
                             
-                            <div class="p-5 bg-slate-50">
-                                <p class="text-sm text-slate-600 mb-4">${bill.summary}</p>
+                            <div class="p-5">
+                                <p class="text-sm text-slate-700 mb-6 leading-relaxed">${bill.full_summary}</p>
                                 
-                                <div class="mb-4">
-                                    <div class="flex justify-between text-xs font-semibold mb-1">
-                                        <span>Likelihood to Pass</span>
-                                        <span>${bill.sentiment_score}%</span>
+                                <div class="mb-5 bg-slate-50 p-4 rounded-lg border border-slate-100">
+                                    <div class="flex justify-between text-xs font-semibold mb-1 text-slate-600">
+                                        <span>AI prediction of success</span>
+                                        <span class="font-bold text-slate-900">${bill.sentiment_score}%</span>
                                     </div>
-                                    <div class="w-full bg-slate-200 rounded-full h-2">
-                                        <div class="${sentimentColor} h-2 rounded-full" style="width: ${bill.sentiment_score}%"></div>
+                                    <div class="w-full bg-slate-200 rounded-full h-2.5">
+                                        <div class="${sentimentColor} h-2.5 rounded-full" style="width: ${bill.sentiment_score}%"></div>
                                     </div>
                                 </div>
 
@@ -84,6 +99,14 @@
                                         <span class="text-slate-700">${bill.opponents}</span>
                                     </div>
                                 </div>
+                                
+                                <div class="mt-6 pt-4 border-t border-slate-100">
+                                    <a href="${bill.link}" 
+                                       target="_blank" 
+                                       class="inline-block w-full text-center bg-burnt-orange text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:brightness-95 transition">
+                                       View Original Bill Text
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     `;
@@ -94,7 +117,7 @@
                 console.error("Error loading data:", error);
                 document.getElementById('dashboard-grid').innerHTML = `
                     <div class="col-span-full bg-red-50 text-red-600 p-4 rounded-lg border border-red-200">
-                        <strong>Error:</strong> Could not load data.json. Make sure the GitHub Action has run successfully.
+                        <strong>Error:</strong> Could not load data.json. Ensure the automated backend workflow has completed.
                     </div>
                 `;
                 document.getElementById('status-indicator').textContent = "Offline";
