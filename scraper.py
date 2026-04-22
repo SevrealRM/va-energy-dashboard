@@ -1,20 +1,11 @@
 import os
 import json
 import requests
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 
-# Setup Gemini
-genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-
-# We configure the model to ONLY output JSON and enable Google Search Grounding
-model = genai.GenerativeModel(
-    'gemini-2.5-flash',
-    tools=[{"google_search": {}}],
-    generation_config={
-        "response_mime_type": "application/json",
-        "temperature": 0.2
-    }
-)
+# Setup Gemini using the NEW official SDK
+client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 def get_legiscan_status(bill_id):
     """Hits the live LegiScan API to get the real-time status of the bill."""
@@ -23,13 +14,11 @@ def get_legiscan_status(bill_id):
     if not api_key:
         return "Unknown (Missing LegiScan API Key)"
         
-    # Querying LegiScan for the specific bill ID
     url = f"https://api.legiscan.com/?key={api_key}&op=getSearch&state=VA&query={bill_id.replace(' ', '')}"
     
     try:
         response = requests.get(url).json()
         if "searchresult" in response:
-            # LegiScan returns a dictionary. We want the first actual result (skipping the 'summary' metadata key)
             for key, value in response["searchresult"].items():
                 if key != "summary":
                     return f"Last Action: {value.get('last_action', 'None')} on {value.get('last_action_date', 'Unknown')}"
@@ -77,7 +66,20 @@ def analyze_with_ai(bill_list):
     'news_link' (string, the URL to the news article).
     """
     
-    response = model.generate_content(prompt)
+    # Configure the new SDK to use the official Google Search tool type
+    config = types.GenerateContentConfig(
+        tools=[types.Tool(google_search=types.GoogleSearch())],
+        response_mime_type="application/json",
+        temperature=0.2
+    )
+    
+    # Generate the response using the new client syntax
+    response = client.models.generate_content(
+        model='gemini-2.5-flash',
+        contents=prompt,
+        config=config
+    )
+    
     return json.loads(response.text)
 
 if __name__ == "__main__":
