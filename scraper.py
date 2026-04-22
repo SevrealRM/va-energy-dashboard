@@ -44,7 +44,14 @@ def get_va_bill_data():
 def analyze_with_ai(bill_list):
     prompt = f"""
     You are a political consultant and grid engineer in Virginia. Analyze these data center bills and their live legislative status: {bill_list}. 
-    
+
+    GRID ECONOMICS DEFINITIONS:
+    - 'impact_cost': This refers strictly to the residential end-user's utility bill. 
+      * If a bill forces a corporation to pay for its own infrastructure (cost shifting to the user), the impact on the residential ratepayer is "Decrease" or "Neutral".
+      * If a bill socializes private infrastructure costs across the public grid, the impact is "Increase".
+    - 'impact_saifi': SAIFI measures outages. An "Increase" means more outages (worse reliability). A "Decrease" means fewer outages (better reliability).
+
+    SEARCH INSTRUCTIONS:
     Use Google Search to find ONE recent news article related to each bill or Virginia data centers in general.
 
     Calculate the 'sentiment_score' (1-100) using this strict rubric:
