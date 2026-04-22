@@ -9,7 +9,7 @@ genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 # We configure the model to ONLY output JSON and enable Google Search Grounding
 model = genai.GenerativeModel(
     'gemini-2.5-flash',
-    tools="google_search",
+    tools=[{"google_search": {}}],
     generation_config={
         "response_mime_type": "application/json",
         "temperature": 0.2
