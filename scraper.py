@@ -53,7 +53,7 @@ def analyze_with_ai(bill_list):
     - If status contains "unanimously" or "Governor", add 30.
     - If status contains "Stalled", "Failed", "Left in", or "Stricken", subtract 20.
     
-    Provide a JSON list. Each object in the list must have exactly these keys:
+    Provide a raw JSON list ONLY. No markdown formatting, no introduction, no backticks. Each object in the list must have exactly these keys:
     'id' (string),
     'headline' (string, a clear 3-8 word summary of the bill's intent),
     'full_summary' (string, a concise paragraph describing the impact),
@@ -67,9 +67,9 @@ def analyze_with_ai(bill_list):
     """
     
     # Configure the new SDK to use the official Google Search tool type
+    # Notice we REMOVED the strict JSON mime type here to prevent the crash
     config = types.GenerateContentConfig(
         tools=[types.Tool(google_search=types.GoogleSearch())],
-        response_mime_type="application/json",
         temperature=0.2
     )
     
@@ -80,7 +80,16 @@ def analyze_with_ai(bill_list):
         config=config
     )
     
-    return json.loads(response.text)
+    # Clean up the response in case the AI wraps it in markdown code blocks
+    raw_text = response.text.strip()
+    if raw_text.startswith("```json"):
+        raw_text = raw_text[7:]
+    if raw_text.startswith("```"):
+        raw_text = raw_text[3:]
+    if raw_text.endswith("```"):
+        raw_text = raw_text[:-3]
+        
+    return json.loads(raw_text.strip())
 
 if __name__ == "__main__":
     raw_bills = get_va_bill_data()
