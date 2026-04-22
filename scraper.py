@@ -4,7 +4,7 @@ import requests
 from google import genai
 from google.genai import types
 
-# Setup Gemini using the NEW official SDK
+# Setup Gemini using the official SDK
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 def get_legiscan_status(bill_id):
@@ -43,7 +43,7 @@ def get_va_bill_data():
 
 def analyze_with_ai(bill_list):
     prompt = f"""
-    You are a political consultant in Virginia. Analyze these data center bills and their live legislative status: {bill_list}. 
+    You are a political consultant and grid engineer in Virginia. Analyze these data center bills and their live legislative status: {bill_list}. 
     
     Use Google Search to find ONE recent news article related to each bill or Virginia data centers in general.
 
@@ -56,24 +56,24 @@ def analyze_with_ai(bill_list):
     Provide a raw JSON list ONLY. No markdown formatting, no introduction, no backticks. Each object in the list must have exactly these keys:
     'id' (string),
     'headline' (string, a clear 3-8 word summary of the bill's intent),
-    'full_summary' (string, a concise paragraph describing the impact),
+    'short_summary' (string, a concise ONE-SENTENCE summary of the bill's real-world impact),
     'status' (string, the exact LegiScan status provided),
     'sentiment_score' (number 1-100 based on the rubric above),
-    'supporters' (string),
-    'opponents' (string),
+    'supporters' (string, brief list of supporting entities),
+    'opponents' (string, brief list of opposing entities),
+    'impact_cost' (string, predict ratepayer cost/kWh impact: output ONLY "Increase", "Decrease", or "Neutral"),
+    'impact_co2' (string, predict state grid kg CO2e/kWh impact: output ONLY "Increase", "Decrease", or "Neutral"),
+    'impact_saifi' (string, predict SAIFI/reliability impact: output ONLY "Increase", "Decrease", or "Neutral". Note: an Increase in SAIFI is bad/more outages),
     'news_headline' (string, a 5-10 word headline of the news article you found via search),
     'news_summary' (string, a 2-sentence summary of the article),
     'news_link' (string, the URL to the news article).
     """
     
-    # Configure the new SDK to use the official Google Search tool type
-    # Notice we REMOVED the strict JSON mime type here to prevent the crash
     config = types.GenerateContentConfig(
         tools=[types.Tool(google_search=types.GoogleSearch())],
         temperature=0.2
     )
     
-    # Generate the response using the new client syntax
     response = client.models.generate_content(
         model='gemini-2.5-flash',
         contents=prompt,
