@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VA Energy Legislation Dashboard - Consultant Portal</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="[https://cdn.tailwindcss.com](https://cdn.tailwindcss.com)"></script>
     <style>
         :root { --ut-burnt-orange: #BF5700; }
         .bg-burnt-orange { background-color: var(--ut-burnt-orange); }
@@ -18,8 +18,8 @@
         <div class="max-w-7xl mx-auto flex items-center gap-6">
             <div>
                 <h1 class="text-3xl font-bold">Virginia Energy & AI Legislation Dashboard</h1>
-                <p class="text-white/80 mt-2">Track regulatory sentiment across Virginia over bills concerning data center impacts</p>
-                <div class="mt-4 text-sm font-semibold bg-white/10 inline-block px-3 py-1 rounded flex items-center gap-2">
+                <p class="text-white/80 mt-2">Track regulatory sentiment and predicted grid impacts across Virginia.</p>
+                <div class="mt-4 text-sm font-semibold bg-white/10 inline-block px-3 py-1 rounded flex items-center gap-2 w-fit">
                     <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
                     Live API Feed: Active
                 </div>
@@ -28,32 +28,58 @@
     </header>
 
     <main class="max-w-7xl mx-auto p-8">
-        
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
             
+            <!-- Left Column: Bill Tracking Grid -->
             <div class="lg:col-span-2">
                 <div class="mb-6 border-b pb-4">
                     <h2 class="text-2xl font-semibold text-slate-700">Active Bills & Proposals</h2>
-                    <p class="text-slate-500 text-sm">Consultant validation recommended for low-scoring legislation.</p>
+                    <p class="text-slate-500 text-sm">Consultant validation recommended for impact predictions.</p>
                 </div>
                 
-                <div id="dashboard-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div id="dashboard-grid" class="flex flex-col gap-6">
                     <p class="text-slate-500 italic" id="loading-text">Loading automated data analysis...</p>
                 </div>
             </div>
 
+            <!-- Right Column: Live Intelligence Feed -->
             <div class="lg:col-span-1 bg-white border border-slate-200 rounded-xl p-6 shadow-sm h-fit sticky top-8">
                 <h3 class="text-lg font-bold text-slate-800 mb-4 border-b border-slate-100 pb-2">
                     Live Intelligence Feed
                 </h3>
                 <div id="news-feed" class="flex flex-col gap-5">
-                    </div>
+                    <!-- News Items Populate Here -->
+                </div>
             </div>
             
         </div>
     </main>
 
     <script>
+        // Helper function to color code the impact badges safely
+        function getImpactBadge(metricName, direction) {
+            const dir = (direction || "Neutral").toLowerCase();
+            let colorClass = "bg-slate-100 text-slate-600"; // Default Neutral
+            let icon = "➖";
+
+            if (dir.includes("increase")) {
+                // An increase in Cost, CO2, or SAIFI is generally considered "bad" for the state/ratepayer
+                colorClass = "bg-red-50 text-red-700 border-red-200";
+                icon = "📈";
+            } else if (dir.includes("decrease")) {
+                // A decrease is generally "good"
+                colorClass = "bg-green-50 text-green-700 border-green-200";
+                icon = "📉";
+            }
+
+            return `
+                <div class="flex flex-col items-center p-2 rounded-lg border ${colorClass} text-center">
+                    <span class="text-[10px] uppercase font-bold tracking-wider opacity-70 mb-1">${metricName}</span>
+                    <span class="text-sm font-semibold flex items-center gap-1">${icon} ${direction}</span>
+                </div>
+            `;
+        }
+
         async function loadDashboard() {
             try {
                 const response = await fetch('data.json');
@@ -68,21 +94,23 @@
                 newsFeed.innerHTML = '';
 
                 bills.forEach(bill => {
-                    // Fallback variables
                     const id = bill.id || "Unknown ID";
                     const headline = bill.headline || "Pending AI Update...";
-                    const fullSummary = bill.full_summary || "Pending summary...";
+                    const shortSummary = bill.short_summary || bill.full_summary || "Pending summary...";
                     const status = bill.status || "Checking LegiScan...";
                     const score = bill.sentiment_score || 0;
+                    const supporters = bill.supporters || "N/A";
+                    const opponents = bill.opponents || "N/A";
                     
-                    const searchQuery = encodeURIComponent(id + " Virginia data center legislation");
-                    const searchLink = "https://www.google.com/search?q=" + searchQuery;
+                    // Specific Search Query Logic for the user button
+                    const searchQuery = encodeURIComponent(id + " Virginia data center legislation bill text -ai");
+                    const searchLink = "[https://www.google.com/search?q=](https://www.google.com/search?q=)" + searchQuery;
 
                     let sentimentColor = 'bg-red-500';
                     if (score >= 40) sentimentColor = 'bg-yellow-500';
                     if (score >= 70) sentimentColor = 'bg-green-500';
 
-                    // 1. Build the Bill Card (Left side)
+                    // 1. Build the Bill Card
                     const billCard = `
                         <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-md transition-shadow">
                             <div class="p-5 border-b border-slate-100 flex justify-between items-start bg-slate-50/50">
@@ -97,7 +125,17 @@
                                     🏛️ ${status}
                                 </div>
                             
-                                <p class="text-sm text-slate-700 mb-6 leading-relaxed">${fullSummary}</p>
+                                <p class="text-sm text-slate-700 mb-5 leading-relaxed font-medium">${shortSummary}</p>
+                                
+                                <!-- Grid Impacts -->
+                                <div class="mb-5">
+                                    <h4 class="text-xs font-bold text-slate-500 uppercase mb-2">Predicted State-Wide Grid Impacts</h4>
+                                    <div class="grid grid-cols-3 gap-2">
+                                        ${getImpactBadge("Cost/kWh", bill.impact_cost)}
+                                        ${getImpactBadge("CO2e/kWh", bill.impact_co2)}
+                                        ${getImpactBadge("SAIFI", bill.impact_saifi)}
+                                    </div>
+                                </div>
                                 
                                 <div class="mb-5 bg-slate-50 p-4 rounded-lg border border-slate-100">
                                     <div class="flex justify-between text-xs font-semibold mb-1 text-slate-600">
@@ -106,6 +144,17 @@
                                     </div>
                                     <div class="w-full bg-slate-200 rounded-full h-2.5">
                                         <div class="${sentimentColor} h-2.5 rounded-full" style="width: ${score}%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="grid grid-cols-2 gap-4 text-sm mt-4 mb-6 pt-4 border-t border-slate-100">
+                                    <div>
+                                        <span class="block text-xs font-bold text-green-700 uppercase mb-1">Supporters</span>
+                                        <span class="text-slate-700 text-xs leading-snug">${supporters}</span>
+                                    </div>
+                                    <div>
+                                        <span class="block text-xs font-bold text-red-700 uppercase mb-1">Opponents</span>
+                                        <span class="text-slate-700 text-xs leading-snug">${opponents}</span>
                                     </div>
                                 </div>
                                 
@@ -139,7 +188,7 @@
                 console.error("Error loading data:", error);
                 document.getElementById('dashboard-grid').innerHTML = `
                     <div class="col-span-full bg-red-50 text-red-600 p-4 rounded-lg border border-red-200">
-                        <strong>Error:</strong> Could not load data.json.
+                        <strong>Error:</strong> Could not load data.json. Ensure the backend Action has run.
                     </div>
                 `;
             }
