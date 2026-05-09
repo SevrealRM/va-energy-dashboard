@@ -1,47 +1,47 @@
 [
     {
         "id": "HB 1393",
-        "headline": "Large Energy User Cost Shift",
-        "short_summary": "This bill aims to shift the financial burden of grid infrastructure costs from residential ratepayers to large energy users, primarily data centers.",
+        "headline": "Large User Grid Cost Shifting",
+        "short_summary": "This bill aims to shift the costs of increasing electric generating capacity and certain distribution infrastructure to large energy users, primarily data centers, to reduce residential electricity bills.",
         "status": "Last Action: Governor's Action Deadline 11:59 p.m., May 23, 2026 on 2026-04-22",
         "sentiment_score": 60,
-        "supporters": "Del. Destiny LeVere Bolling, Sen. Louise Lucas, Dominion Energy (initially), low-income customers.",
-        "opponents": "Data Center Coalition (concerned about language precluding analysis of capacity costs), Governor Spanberger (amendments seen as weakening).",
+        "supporters": "Residential ratepayers, consumer advocates, Dominion Energy (original bill).",
+        "opponents": "Data center industry, large manufacturers.",
         "impact_cost": "Decrease",
         "impact_co2": "Neutral",
         "impact_saifi": "Decrease",
-        "news_headline": "Virginia governor amends bills that shift costs onto data centers",
-        "news_summary": "Governor Spanberger proposed amendments to HB 1393 and SB 253, which aimed to shift energy costs onto data centers to save residential customers money and expand a power line burial program. Critics argue the governor's changes weaken the original intent of the bills, particularly by removing the direct shift of capacity auction costs and instead allowing the SCC to determine fair share.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsCU0nzIPeIK2OeeXhV1AuREIJzdzqt3LHYGDnAJem-hULXM_mgmgEFyB0ZJ0yUcpuA9bebRrMEK3NwSn54JjYt1SpdOspRsvGBHpojISsHz9FClxlNhGdj5GU5GZcEcfwFHOU-P12rU-8mXu2y4TF_vMDTcuZI8-HUNWXTqyyhJxI6aL6q3IhArEyLGearYxKE1iu37bmCFVCeTXSjHVgu8JGKWH6kcvAUR8y8RrCnmfrDyL2fSd2d9CRXoolPRlAZ9cjYvSdMCRTQ-vaN6FCguM226asSHrbqmfsJvIRcU_tzkmBy1FAMbH2BpbBL7M="
+        "news_headline": "Governor amends bills that shift costs onto data centers",
+        "news_summary": "Governor Spanberger suggested changes to HB 1393 and SB 253, which aimed to shift costs of new distribution infrastructure and capacity auction prices onto high-load energy users like data centers. While the original bills sought to save residential customers money and expand a power line burial program, critics argue the governor's amendments weaken these goals, particularly by removing a direct cost shift for PJM capacity costs and giving the SCC more discretion.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF68btdnOvEwIKhuAo_RXhofNBz-yvINgb3_DtQGnf5TfxqBcEdSHOsIMZWmHXVNfTS-FMm9UuRh396DkbR0nRvEmrOy2w2fdxK-1ulGREH85SBLbvydFGjf39Z-K9-H3Nv_-RG2YClGbb_SWYhyDwjyuSZBhvRYbrXuOFFOmkl8WwuZMew7riS1Bza2OdTOg15rLG5Ks7f6jRYJnEvVuGiUhD5u5CA3hd9Z_leJPxh1QIPOulHlYT7gq1HZYiUgg8iKpM="
     },
     {
         "id": "SB 553",
         "headline": "Data Center Water Use Reporting",
-        "short_summary": "This bill mandates water users providing water to data centers to report their total monthly water consumption, including reclaimed water, to the State Water Control Board.",
+        "short_summary": "This bill mandates that water users supplying data centers report their monthly or quarterly water consumption to the State Water Control Board, including reclaimed water, to increase transparency.",
         "status": "Last Action: Acts of Assembly Chapter text (CHAP0896) on 2026-04-13",
         "sentiment_score": 60,
-        "supporters": "Sen. Kannan Srinivasan, Del. Liz Guzman, environmental advocates, concerned constituents.",
-        "opponents": "Not explicitly mentioned in search results.",
+        "supporters": "Environmental advocates (e.g., Piedmont Environmental Council), local residents, transparency advocates.",
+        "opponents": "Data center industry (potential opposition due to reporting burden, but not explicitly stated as strong opposition).",
         "impact_cost": "Neutral",
         "impact_co2": "Neutral",
         "impact_saifi": "Neutral",
-        "news_headline": "Four data center bills await governor's signature in Virginia",
-        "news_summary": "SB 553, one of four bills on the governor's desk, aims to increase reporting requirements for data center water usage, bringing transparency to their water consumption. Supporters view it as a necessary check and balance for the rapidly growing data center industry.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH__BCw1pJSvKcIW3qrCKPL2DEGndfnUDYc5vceHYtFAeuUqBYHqXdToqN0i_cwHVo4J2O2O4_8XNbqx6mB5ir1ArzK3qEo9UPfoQFFRiggpOqfDzd4_uDAr63mBxi4vtauI794o9UD8nCOjZPhaJChs_vMb-UFcTc11ky-EtZuMc-QHqZovfOv1vBYsHnhHOsQFkOnf2qxME5_EfFpqq9AnnYurWzr7fp9bvaYmLkHs-lLtqZwI-Df3iaS4FqPGuE6ORI="
+        "news_headline": "Virginia passes data center water consumption reporting bill",
+        "news_summary": "SB 553 requires water users supplying data centers to report monthly or quarterly water consumption, including reclaimed water, to the State Water Control Board. This legislation aims to provide transparency on data center water usage, a growing concern among residents and environmental advocates.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrdjRiH7zqUcvxf9c-w5qVtJWohUXOsO3mZN9ff_JwtuaMDen4BL_tzU03uOx-XhRrX5TXsHCvWbTdK9DCrG7jtsRiqRPwqgTNnHDJhQqpCfVNx1OqUjn6ZOO5mGKwnwVGHUNuhWGULOL5vb_xE6CUT-i7TiW97zjs3jeY2f6dN4kLcOVxq33HCLDopxXzjb8wup1i2B7A6olToG7oEqBo1UA0viInAkP_Pr44ZQzHdw=="
     },
     {
         "id": "HB 153",
-        "headline": "Data Center Siting and Noise",
-        "short_summary": "This bill requires applicants for new high energy use facilities, such as data centers, to submit a site assessment focusing on noise impacts before local approval, while preserving local zoning authority.",
+        "headline": "Data Center Siting and Noise Limits",
+        "short_summary": "This bill establishes new permit requirements for high-energy use data centers, mandating site assessments for noise impacts on nearby residential areas and schools, and allowing localities to assess other environmental impacts.",
         "status": "Last Action: Incorporated by Counties, Cities and Towns (HB153-Thomas) (Voice Vote) on 2026-01-23",
-        "sentiment_score": 60,
-        "supporters": "Del. Joshua Thomas, Del. Elizabeth Guzman, concerned constituents, local communities.",
-        "opponents": "Not explicitly mentioned, but data center developers may find new siting requirements challenging.",
+        "sentiment_score": 90,
+        "supporters": "Local residents, environmental advocates (e.g., Piedmont Environmental Council), local government officials.",
+        "opponents": "Data center industry (potential opposition due to increased regulatory burden and siting restrictions).",
         "impact_cost": "Neutral",
         "impact_co2": "Neutral",
         "impact_saifi": "Neutral",
-        "news_headline": "Loudoun Co. officials discuss data center noise mitigation efforts",
-        "news_summary": "Growing concerns about noise from data centers, particularly in Loudoun County, are prompting officials to discuss mitigation efforts and potential changes to zoning ordinances. Residents report constant hums and high-frequency ringing, highlighting the clash between data center growth and community quality of life.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzZejeaH3IxHWRPSueAh1GmeU_61DaRdSduWS1IgLWA40mtiEw6da6RIxKQUlLQG-H5YcD2UW9nbDJNrJHXeQwpSoDBZ5Og6ScOVd3Vr-_TCBClPv1lrxFBuD0ZdYxiBxHTOtqjJIv3l1jVtObsRGtBwWKWeY_TFLbpLK3a12CglzFE1mSNy6NxlQ_mXfymy6NcAZy2Yi2dk10NCL4BpHvIy_8Td-M-2nYRVGyieyLh7WbT8btUIKiJRmt"
+        "news_headline": "Virginia enacts data center siting, noise assessment requirements",
+        "news_summary": "HB 153 (identical to SB 94) establishes a new permit process for high-energy use facilities (100 MW+), requiring site assessments for noise impacts on nearby homes and schools. Localities can also mandate assessments for impacts on water, agriculture, and historic resources, reflecting growing concerns over data center development.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnWqQ8BWVhZkcLlu5gQxLBvFcvdfwzAs7r38-XPpSoCWYqKNn4hMJzXxcJr6l3KVA9zRzxWEKOUtlHT_ZVJ1RBJFBhzoEPwG2AFAiA7cIul-Z0T7TQ_uDC9uO2R6SvHVjr_CshNojf5o3jK6mmgkDMPuvEzj3CKYiNl0YxNDyVmvJfqPnj-flJ9pOpioAo61RPAHyyN9-zq6cBX3Q=="
     }
 ]
