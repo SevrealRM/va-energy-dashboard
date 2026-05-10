@@ -1,47 +1,47 @@
 [
     {
         "id": "HB 1393",
-        "headline": "Large User Grid Cost Shifting",
-        "short_summary": "This bill aims to shift the costs of increasing electric generating capacity and certain distribution infrastructure to large energy users, primarily data centers, to reduce residential electricity bills.",
+        "headline": "Large Energy User Grid Cost Shifting",
+        "short_summary": "This bill aims to shift the cost of grid infrastructure and capacity auctions from residential ratepayers to large energy users like data centers.",
         "status": "Last Action: Governor's Action Deadline 11:59 p.m., May 23, 2026 on 2026-04-22",
         "sentiment_score": 60,
-        "supporters": "Residential ratepayers, consumer advocates, Dominion Energy (original bill).",
+        "supporters": "Residential ratepayers, consumer advocacy groups, Dominion Energy (initially).",
         "opponents": "Data center industry, large manufacturers.",
         "impact_cost": "Decrease",
         "impact_co2": "Neutral",
         "impact_saifi": "Decrease",
-        "news_headline": "Governor amends bills that shift costs onto data centers",
-        "news_summary": "Governor Spanberger suggested changes to HB 1393 and SB 253, which aimed to shift costs of new distribution infrastructure and capacity auction prices onto high-load energy users like data centers. While the original bills sought to save residential customers money and expand a power line burial program, critics argue the governor's amendments weaken these goals, particularly by removing a direct cost shift for PJM capacity costs and giving the SCC more discretion.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF68btdnOvEwIKhuAo_RXhofNBz-yvINgb3_DtQGnf5TfxqBcEdSHOsIMZWmHXVNfTS-FMm9UuRh396DkbR0nRvEmrOy2w2fdxK-1ulGREH85SBLbvydFGjf39Z-K9-H3Nv_-RG2YClGbb_SWYhyDwjyuSZBhvRYbrXuOFFOmkl8WwuZMew7riS1Bza2OdTOg15rLG5Ks7f6jRYJnEvVuGiUhD5u5CA3hd9Z_leJPxh1QIPOulHlYT7gq1HZYiUgg8iKpM="
+        "news_headline": "Virginia governor amends bills that shift costs onto data centers. Critics say her tweaks weaken them.",
+        "news_summary": "Governor Abigail Spanberger suggested amendments to HB 1393 and SB 253, which aimed to shift energy costs onto data centers and large manufacturers to save residential customers money. Her amendments removed the direct cost shift for purchasing additional power, instead allowing the State Corporation Commission to determine fair share payments, which critics argue weakens the bill's original intent.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8SFyDT2c3ZjyGzxlFeFDdvAJAOQ9J_xRUI5ln0qAGy4jEEFOLLzz_TSdk8C46H1fiBwyjwmcpbXLyLodfeHKoEZvpdWCSGc5zRxX785Y7Kh1-720ZTxkOezEr6d4aovcA10Lq6jQKqJHrNAZEAR6iOk4vKA7izqgyUqGUWWHN9V5gLHjD3H73nPl9kyNRYbfXrKLB2YzBwD611quKRn54fCJTACxIIUroJvJY4ae2LOCSJ_UmyToRJL2WS6rkQSstvUggcWRBypAQvuWBj_N-5kmexrsdjoF15XqB5ESvbxCFpL8DqIqDx1E395tiSrw="
     },
     {
         "id": "SB 553",
-        "headline": "Data Center Water Use Reporting",
-        "short_summary": "This bill mandates that water users supplying data centers report their monthly or quarterly water consumption to the State Water Control Board, including reclaimed water, to increase transparency.",
+        "headline": "Data Center Water Consumption Reporting",
+        "short_summary": "This bill mandates water users providing water to data centers to report their total water volume, including reclaimed water, to the State Water Control Board.",
         "status": "Last Action: Acts of Assembly Chapter text (CHAP0896) on 2026-04-13",
         "sentiment_score": 60,
-        "supporters": "Environmental advocates (e.g., Piedmont Environmental Council), local residents, transparency advocates.",
-        "opponents": "Data center industry (potential opposition due to reporting burden, but not explicitly stated as strong opposition).",
+        "supporters": "Environmental groups, Potomac Conservancy, local communities, water conservationists.",
+        "opponents": "Data center industry (implied).",
         "impact_cost": "Neutral",
         "impact_co2": "Neutral",
         "impact_saifi": "Neutral",
-        "news_headline": "Virginia passes data center water consumption reporting bill",
-        "news_summary": "SB 553 requires water users supplying data centers to report monthly or quarterly water consumption, including reclaimed water, to the State Water Control Board. This legislation aims to provide transparency on data center water usage, a growing concern among residents and environmental advocates.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrdjRiH7zqUcvxf9c-w5qVtJWohUXOsO3mZN9ff_JwtuaMDen4BL_tzU03uOx-XhRrX5TXsHCvWbTdK9DCrG7jtsRiqRPwqgTNnHDJhQqpCfVNx1OqUjn6ZOO5mGKwnwVGHUNuhWGULOL5vb_xE6CUT-i7TiW97zjs3jeY2f6dN4kLcOVxq33HCLDopxXzjb8wup1i2B7A6olToG7oEqBo1UA0viInAkP_Pr44ZQzHdw=="
+        "news_headline": "Data centers are drinking our Potomac River region resources up. Our team is fighting for transparency in Virginia",
+        "news_summary": "Potomac Conservancy is advocating for SB 553, a bill that requires data centers to report their water usage to the State Water Control Board. This transparency is crucial for environmental advocates to understand and address the impact of data center sprawl on the Potomac River region's water supply, which faces potential failure by 2030 due to drought conditions.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwVU5zx0TgyYtSVzXMoeBjNMztbb1oAhEwk_tW1RTHS0N6a1QWlCZovQKOsjvR80gmAOrZkNHHNMTt3NjW0TpD-G-B4PMjITmm2cRba622hwmQ-qJ26iR8CUFDzJgBAoK1euW1IFKeOHD1HlaZrCq5HbWGkyPoo7o5rFFzP9rEvHqk1Q=="
     },
     {
         "id": "HB 153",
         "headline": "Data Center Siting and Noise Limits",
-        "short_summary": "This bill establishes new permit requirements for high-energy use data centers, mandating site assessments for noise impacts on nearby residential areas and schools, and allowing localities to assess other environmental impacts.",
+        "short_summary": "This bill addresses community concerns by establishing regulations for data center siting and setting limits on noise generation.",
         "status": "Last Action: Incorporated by Counties, Cities and Towns (HB153-Thomas) (Voice Vote) on 2026-01-23",
-        "sentiment_score": 90,
-        "supporters": "Local residents, environmental advocates (e.g., Piedmont Environmental Council), local government officials.",
-        "opponents": "Data center industry (potential opposition due to increased regulatory burden and siting restrictions).",
+        "sentiment_score": 60,
+        "supporters": "Local communities, residents near data center sites, Del. Joshua Thomas.",
+        "opponents": "Data center developers, real estate industry (implied).",
         "impact_cost": "Neutral",
         "impact_co2": "Neutral",
         "impact_saifi": "Neutral",
-        "news_headline": "Virginia enacts data center siting, noise assessment requirements",
-        "news_summary": "HB 153 (identical to SB 94) establishes a new permit process for high-energy use facilities (100 MW+), requiring site assessments for noise impacts on nearby homes and schools. Localities can also mandate assessments for impacts on water, agriculture, and historic resources, reflecting growing concerns over data center development.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnWqQ8BWVhZkcLlu5gQxLBvFcvdfwzAs7r38-XPpSoCWYqKNn4hMJzXxcJr6l3KVA9zRzxWEKOUtlHT_ZVJ1RBJFBhzoEPwG2AFAiA7cIul-Z0T7TQ_uDC9uO2R6SvHVjr_CshNojf5o3jK6mmgkDMPuvEzj3CKYiNl0YxNDyVmvJfqPnj-flJ9pOpioAo61RPAHyyN9-zq6cBX3Q=="
+        "news_headline": "As data center noise concerns grow, Loudoun Co. officials discuss possible mitigation efforts",
+        "news_summary": "Residents in Loudoun County are experiencing constant, high-pitched noise from a data center that generates its own power, leading to headaches and sleep disturbances. While the data center claims compliance, the county's current noise ordinance doesn't measure tonal noise, prompting officials to explore legislative avenues to address these growing community concerns.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxlqml4nFszrOQoQeGjF8iFiPrMXUR14zDwXgMuN5YrV_r5DeG6UMdidoJt-1ualaPVXIneCip97idCDgT22MVgSIPwDVFwVd3mVTch1V-mKsKT_n_zPPvGq7NeTU1L3JFMb3QyRrBa4p661P44Pr9PEpIdZkp_R-Zndc-yIwlcaxi5XopMt_A0q4xaGBIhKj7IMEwopm8KexIgD6LudxQSOQNvEDCf5l3pSRwyfvZPo38LVbOp-X23FHE"
     }
 ]
