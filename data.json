@@ -1,47 +1,47 @@
 [
     {
         "id": "HB 1393",
-        "headline": "Large Energy User Grid Cost Shifting",
-        "short_summary": "This bill aims to shift the cost of grid infrastructure and capacity auctions from residential ratepayers to large energy users like data centers.",
+        "headline": "Shift Grid Costs to Large Energy Users",
+        "short_summary": "This bill aims to shift the cost of grid infrastructure, including capacity and distribution, from residential users to large energy consumers like data centers, potentially saving residential customers money.",
         "status": "Last Action: Governor's Action Deadline 11:59 p.m., May 23, 2026 on 2026-04-22",
         "sentiment_score": 60,
-        "supporters": "Residential ratepayers, consumer advocacy groups, Dominion Energy (initially).",
-        "opponents": "Data center industry, large manufacturers.",
+        "supporters": "Residential ratepayers, consumer advocacy groups, some lawmakers.",
+        "opponents": "Data center industry, large industrial users, Dominion Energy (regarding amendments).",
         "impact_cost": "Decrease",
         "impact_co2": "Neutral",
         "impact_saifi": "Decrease",
-        "news_headline": "Virginia governor amends bills that shift costs onto data centers. Critics say her tweaks weaken them.",
-        "news_summary": "Governor Abigail Spanberger suggested amendments to HB 1393 and SB 253, which aimed to shift energy costs onto data centers and large manufacturers to save residential customers money. Her amendments removed the direct cost shift for purchasing additional power, instead allowing the State Corporation Commission to determine fair share payments, which critics argue weakens the bill's original intent.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8SFyDT2c3ZjyGzxlFeFDdvAJAOQ9J_xRUI5ln0qAGy4jEEFOLLzz_TSdk8C46H1fiBwyjwmcpbXLyLodfeHKoEZvpdWCSGc5zRxX785Y7Kh1-720ZTxkOezEr6d4aovcA10Lq6jQKqJHrNAZEAR6iOk4vKA7izqgyUqGUWWHN9V5gLHjD3H73nPl9kyNRYbfXrKLB2YzBwD611quKRn54fCJTACxIIUroJvJY4ae2LOCSJ_UmyToRJL2WS6rkQSstvUggcWRBypAQvuWBj_N-5kmexrsdjoF15XqB5ESvbxCFpL8DqIqDx1E395tiSrw="
+        "news_headline": "Governor Amends Bills Shifting Costs to Data Centers",
+        "news_summary": "Governor Abigail Spanberger suggested changes to HB 1393, a key energy measure designed to shift more costs onto data centers to save residential electricity customers money and expand a power line burial program. Critics, including Dominion Energy, argue that the Governor's amendments undermine the bill's original goals of lowering costs for customers and reducing outages.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlx7B7ns7LBQ4eCm9QCo1PbjFUN1LFy7L-zFPqGJXil64DQ0rPRiM8nmnXevZMT8ZBS76HdLaT0xlbHUS-zQhb5yLejvmH8CrzROD5aLAlgD3TMhgvMbtoA3AgTR0RyiJFMnTKWFKiLTaDBd2FJqOypA74hBEjhaEtummojb7wfxZU8zPjJuiW26xfUk52qYI-eW0K-YcnsTj-9ZgROcYSdhuyAZHYFxZkYsHmclx4eYUu0aBRY_lN3zSwvtDftuCJIggQ="
     },
     {
         "id": "SB 553",
-        "headline": "Data Center Water Consumption Reporting",
-        "short_summary": "This bill mandates water users providing water to data centers to report their total water volume, including reclaimed water, to the State Water Control Board.",
+        "headline": "Mandate Data Center Water Use Reporting",
+        "short_summary": "This bill mandates water users providing water to data centers to report total monthly or quarterly water consumption, including reclaimed water, to the State Water Control Board for transparency.",
         "status": "Last Action: Acts of Assembly Chapter text (CHAP0896) on 2026-04-13",
         "sentiment_score": 60,
-        "supporters": "Environmental groups, Potomac Conservancy, local communities, water conservationists.",
-        "opponents": "Data center industry (implied).",
+        "supporters": "Environmental groups, local communities, water conservationists, Potomac Conservancy, Sen. Kannan Srinivasan.",
+        "opponents": "Data center industry (due to reporting burden).",
         "impact_cost": "Neutral",
         "impact_co2": "Neutral",
         "impact_saifi": "Neutral",
-        "news_headline": "Data centers are drinking our Potomac River region resources up. Our team is fighting for transparency in Virginia",
-        "news_summary": "Potomac Conservancy is advocating for SB 553, a bill that requires data centers to report their water usage to the State Water Control Board. This transparency is crucial for environmental advocates to understand and address the impact of data center sprawl on the Potomac River region's water supply, which faces potential failure by 2030 due to drought conditions.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwVU5zx0TgyYtSVzXMoeBjNMztbb1oAhEwk_tW1RTHS0N6a1QWlCZovQKOsjvR80gmAOrZkNHHNMTt3NjW0TpD-G-B4PMjITmm2cRba622hwmQ-qJ26iR8CUFDzJgBAoK1euW1IFKeOHD1HlaZrCq5HbWGkyPoo7o5rFFzP9rEvHqk1Q=="
+        "news_headline": "Data Centers Drinking Potomac Resources; Transparency Bill SB553",
+        "news_summary": "The Potomac Conservancy is advocating for SB 553, a bill that requires data centers to report their water usage to the State Water Control Board, citing concerns about the Potomac River region's water supply failing to meet needs by 2030 due to data center consumption. This transparency is deemed critical for advocating for water-friendly infrastructure and combating data center sprawl.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV5oQ-LLW17n5NWzQhNZz4AUvAgwwI4sZEMBMSH-Tc14pwKOH-82pOG-hbXBqIqIS2yCmOUmpxxtscC-TbUgb0rE9ytdBJGZX1lgwvjE6ik2LXT1-uUTpqlB0vwFQt3fPjBsF-xyw1UQ0vsQ6pFLNaJqQtTM69oEnhV1vat8KBLr9UYFA="
     },
     {
         "id": "HB 153",
-        "headline": "Data Center Siting and Noise Limits",
-        "short_summary": "This bill addresses community concerns by establishing regulations for data center siting and setting limits on noise generation.",
+        "headline": "Regulate Data Center Siting and Noise",
+        "short_summary": "This bill requires localities to mandate site assessments for new high-energy use facilities, including noise studies and potential impacts on water, agriculture, and historic sites, to mitigate negative effects on residential areas.",
         "status": "Last Action: Incorporated by Counties, Cities and Towns (HB153-Thomas) (Voice Vote) on 2026-01-23",
         "sentiment_score": 60,
-        "supporters": "Local communities, residents near data center sites, Del. Joshua Thomas.",
-        "opponents": "Data center developers, real estate industry (implied).",
+        "supporters": "Local communities, residents near proposed data center sites, Del. Joshua Thomas, Del. Sam Rasoul.",
+        "opponents": "Data center developers, real estate industry (due to increased regulatory burden).",
         "impact_cost": "Neutral",
         "impact_co2": "Neutral",
         "impact_saifi": "Neutral",
-        "news_headline": "As data center noise concerns grow, Loudoun Co. officials discuss possible mitigation efforts",
-        "news_summary": "Residents in Loudoun County are experiencing constant, high-pitched noise from a data center that generates its own power, leading to headaches and sleep disturbances. While the data center claims compliance, the county's current noise ordinance doesn't measure tonal noise, prompting officials to explore legislative avenues to address these growing community concerns.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxlqml4nFszrOQoQeGjF8iFiPrMXUR14zDwXgMuN5YrV_r5DeG6UMdidoJt-1ualaPVXIneCip97idCDgT22MVgSIPwDVFwVd3mVTch1V-mKsKT_n_zPPvGq7NeTU1L3JFMb3QyRrBa4p661P44Pr9PEpIdZkp_R-Zndc-yIwlcaxi5XopMt_A0q4xaGBIhKj7IMEwopm8KexIgD6LudxQSOQNvEDCf5l3pSRwyfvZPo38LVbOp-X23FHE"
+        "news_headline": "Expert Weighs in on Virginia's New Data Center Laws",
+        "news_summary": "University of Richmond professor Mary Finley-Brook discusses new Virginia laws regulating data centers, including measures addressing water usage, noise, and site suitability. She characterizes these as \"moderate steps\" towards regulation, noting that while some bills passed, comprehensive reform is still lacking, and debates continue over data center subsidies.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKPAjKQmtgNkFzAjpEEFT7bx1AH_57v7WVxvIIkBQVzrc3ad-MKPruuQJ-rczy-UnmxV8UEWgTTpeydjyshj6YrlsZLXF3YaLqzSgsIn3-7C-hf0xbOTpcfIg1yLxBJXviHagvKs="
     }
 ]
