@@ -1,47 +1,47 @@
 [
     {
         "id": "HB 1393",
-        "headline": "Large Energy User Grid Cost Shifting",
-        "short_summary": "This bill directs Virginia's primary electric provider to establish rates that shift the costs of increasing electric generating capacity to large energy users, such as data centers, rather than residential customers.",
+        "headline": "Shift Data Center Grid Costs",
+        "short_summary": "This bill aims to make large energy users, such as data centers, responsible for their own grid infrastructure costs, thereby protecting residential ratepayers from cost increases.",
         "status": "Last Action: Acts of Assembly Chapter text (CHAP1123) on 2026-05-14",
         "sentiment_score": 60,
-        "supporters": "Residential consumer advocates, Senator L. Louise Lucas.",
-        "opponents": "Data center industry, large energy users.",
+        "supporters": "U.S. Sen. Mark Warner, Dominion Energy, consumer advocacy and utility watchdog organizations, Governor Abigail Spanberger.",
+        "opponents": "Data Center Coalition (initially concerned about language).",
         "impact_cost": "Decrease",
         "impact_co2": "Neutral",
         "impact_saifi": "Decrease",
-        "news_headline": "Virginia Bill Shifts Data Center Energy Costs to High-Demand Users",
-        "news_summary": "Virginia's legislature passed HB 1393, requiring data centers and other large energy users (25 MW or more) to pay for the increased generating capacity they demand. This legislation aims to prevent these costs from being passed on to other customers.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj1o_1AIp3M_nhZJp9LmfeBiPlmbF0l9XlFHJOYGH1tzpzJTWXfe_PfP66Ymsv1MGdknc0vd0MrQiqkfmA5Zi3Cc4nXE6UereggZF7iGWItcYHozCoRKIUenb3q-go3Zps9itfNI67GwrAZBnAK3fY54VWu2mHPrWHp8XJWRMk1YuOThtNCmSaQym26VI5ElaD59W7W41JiGbDKJNOV30YDGHgqc37_1MN6BgtxgGi6Q=="
+        "news_headline": "Virginia Governor Signs Dominion-Backed Bills",
+        "news_summary": "Governor Abigail Spanberger signed legislation directing regulators to assign electricity costs to data centers, aiming to prevent residential customers from bearing the burden of grid upgrades. The bill seeks to ensure data centers cover their own infrastructure costs, which could otherwise increase residential bills by 1.5% to 5%.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIWfWFfasi81rFdmzCv6INsiolGKxLhoqx1sgT2M-ArOGThZflOliSa6nktqcVBM35hricdJtqwQXPw4YQ0yDuiRouoKmxtVoet7pC0gugx3sEEp8d3-BOQU0bLc-ZBKKhrFGvF11ZHuvVL8wnajf3JnY6J8G7jjHpJM3MHwbvO96kGROZDgyPpvg5iVI="
     },
     {
         "id": "SB 553",
-        "headline": "Data Center Water Consumption Reporting",
-        "short_summary": "This bill requires utilities providing water to data centers to regularly disclose the total volume of water withdrawn to the State Water Control Board.",
+        "headline": "Mandate Data Center Water Reporting",
+        "short_summary": "This bill requires data centers to report their water consumption to the State Water Control Board, increasing transparency regarding their environmental impact.",
         "status": "Last Action: Acts of Assembly Chapter text (CHAP0896) on 2026-04-13",
         "sentiment_score": 60,
-        "supporters": "Environmental groups, water conservation advocates, communities.",
-        "opponents": "Data center industry.",
+        "supporters": "Potomac Conservancy, Senator Kannan Srinivasan, environmental and water advocates.",
+        "opponents": "Data center industry (expressed concerns about being singled out, but generally compliant).",
         "impact_cost": "Neutral",
         "impact_co2": "Neutral",
         "impact_saifi": "Neutral",
-        "news_headline": "SB 553 Addresses Data Center Water Use Transparency in Virginia",
-        "news_summary": "SB 553, passed by the Virginia legislature, mandates that utilities report data center water consumption to provide communities with clearer insight into local resource use. This aims to increase transparency regarding water usage, which has often been kept private.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKDhe0fvrvV6NeSFxRsrTjX-_S0polS7sz9Gb_BHzh0Mrqt0KRXmRbQYmK6TVk5zFUZGAqfA7f6jqfLY0o0NxTSpehWDHBuKDd2WXJROpZIVRDbusLku5k1K4zgULhG3vO4ptgl04Bi7OKBM5XQ33JqO9lKN98LemhS9kMMlkplelD8-x9AzmC4w=="
+        "news_headline": "New Virginia law requires data center water usage be made public",
+        "news_summary": "A new Virginia law, effective January 1, 2027, mandates local water authorities to report data center water usage, making the information publicly available on the Department of Environmental Quality's website. This aims to address concerns about the industry's significant water consumption, especially in Northern Virginia.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzr_Q2VKifv5xSlmpLkQdcKPMl0tVF2mzl1nrRs9Wj79imIfgoGttPcCs56DPlsBVBDiBQqTP1BQoMF4R2VGEKld6_c6-Ek_AEn7RbW_OH6k63V6ToUhUVBqjTwAJi2-a4CThEtg-jJ8kbLWG0r_MLGsjxGmkWImP8JfN6NDuQARKqmaojMDpuSQav1kRSCkQaaBvmcsl00qyHJGT6OZ4="
     },
     {
         "id": "HB 153",
-        "headline": "Data Center Siting and Noise Limits",
-        "short_summary": "This bill establishes a permit process for high energy use facilities, requiring sound assessments near homes and schools and allowing localities to assess impacts on water, agriculture, and historic sites.",
+        "headline": "Regulate Data Center Siting, Noise",
+        "short_summary": "This bill requires localities to mandate site assessments for new high energy use facilities, including data centers, to evaluate sound profiles and other environmental impacts on nearby residential areas and schools.",
         "status": "Last Action: Incorporated by Counties, Cities and Towns (HB153-Thomas) (Voice Vote) on 2026-01-23",
         "sentiment_score": 60,
-        "supporters": "Local communities, residents, environmental groups.",
-        "opponents": "Data center industry, developers.",
+        "supporters": "Local residents, Manassas City Council, Piedmont Environmental Council, Loudoun County Supervisor Mike Turner.",
+        "opponents": "Data center developers (implied by stricter regulations and pushback against noise complaints).",
         "impact_cost": "Neutral",
         "impact_co2": "Neutral",
         "impact_saifi": "Neutral",
-        "news_headline": "Virginia HB 153 Mandates Data Center Siting and Noise Assessments",
-        "news_summary": "HB 153, passed by the Virginia legislature, creates a new permit process for high energy use data centers (100 MW or more). It requires sound assessments near residential areas and schools and allows localities to mandate assessments of impacts on water, agriculture, and historic resources.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj1o_1AIp3M_nhZJp9LmfeBiPlmbF0l9XlFHJOYGH1tzpzJTWXfe_PfP66Ymsv1MGdknc0vd0MrQiqkfmA5Zi3Cc4nXE6UereggZF7iGWItcYHozCoRKIUenb3q-go3Zps9itfNI67GwrAZBnAK3fY54VWu2mHPrWHp8XJWRMk1YuOThtNCmSaQym26VI5ElaD59W7W41JiGbDKJNOV30YDGHgqc37_1MN6BgtxgGi6Q=="
+        "news_headline": "Manassas Tightens Data Center Zoning Rules",
+        "news_summary": "Manassas City Council unanimously approved stricter zoning rules for data centers, addressing noise, appearance, and proximity concerns near residential areas. This move reflects growing concerns in Northern Virginia localities about data center impacts, with some residents resorting to extreme measures to block noise.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl4Qur9I4oJSAWT79uL772U6oINEUuWes3GqyuDBqX7IJKTUJOL9_KDxTXlTgpXBwLN-Ex675WNpxN9yTf9p9YrH2hpJunEWi4VCl8RKEWKJSggWBCXOOG7nLsSdOK_il3l3h2hnOXdgeERMKEH862Y3qrur-a4vythXmTQJQpicbmyp4JPpMVJeiHbLo="
     }
 ]
