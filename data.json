@@ -1,47 +1,47 @@
 [
     {
         "id": "HB 1393",
-        "headline": "Data Centers Pay Fair Grid Share",
-        "short_summary": "This bill aims to ensure large energy users, such as data centers, bear a greater share of their grid infrastructure costs, potentially reducing the burden on residential ratepayers.",
+        "headline": "Large User Grid Cost Responsibility",
+        "short_summary": "This bill shifts the cost of grid infrastructure for large energy users, like data centers, back to those users, aiming to prevent these costs from being socialized across all ratepayers.",
         "status": "Last Action: Acts of Assembly Chapter text (CHAP1123) on 2026-05-14",
         "sentiment_score": 60,
-        "supporters": "Residential consumer advocates, Senator Louise Lucas, Delegate Destiny LeVere Bolling, Dominion Energy (with amendments).",
-        "opponents": "Data center industry (Data Center Coalition).",
+        "supporters": "Residential ratepayers, consumer advocacy groups, Governor Spanberger, Del. Destiny LeVere Bolling.",
+        "opponents": "Data center industry, large industrial energy users.",
         "impact_cost": "Decrease",
         "impact_co2": "Neutral",
         "impact_saifi": "Neutral",
-        "news_headline": "Lawmakers OK Governor's Tweaks to Energy Cost Shift Bills",
-        "news_summary": "Governor Spanberger approved amendments to HB 1393 and SB 253, which aim to shift energy distribution and capacity costs onto high-load users like data centers and large manufacturers. The changes allow the State Corporation Commission to determine fair share contributions, potentially saving residential customers about $5.52 monthly.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSurAZ1P2EsORv4Nl_b4eCLKWKkLOYUeJuIfX-wBiKPpFL5Jj7jkRmVKn2EzYVvH71l0sTTyOlA2Gjs-KSEGqICkYdizDwCR84kzG6uugjv78i9kszYdoICZI-Y-jmFkHZyX5x7rvnRiYhqW9uOFyav18_ZioZCOm8exuDUdEL_X0mB3FmfNxJGBr7i4UgYx_05maYxlujicrKMpvahzOtZVmF2_17A0jo8f0OSOQW0-7grAhFV9iuSa14pCbZ_rac"
+        "news_headline": "Governor Signs Bills to Protect Ratepayers from Data Center Costs",
+        "news_summary": "Governor Abigail Spanberger signed legislation aimed at addressing high energy costs and ensuring data centers do not drive up costs for families. The bills protect Virginia ratepayers from shouldering the cost of new energy infrastructure investments by data centers and other high-load energy customers.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcNV4VsAEwWFOg50JY6b9TQUzTNDwnkyWUHZpnP2vRopLVuaCNc6tp9Oc7yUtW1StCTdB50H4QnjmJZWlSEE_8G-rOvCAcFdD3XmG0XRqSXI6F9-32hf_pcT5Qq-tAEx6juNdcF1gbk0tcij0Nppdm4TIZ23gckdAHwalPDlh-6zq0YoBQu5BG5ftGDbsHJTKL_uvddzcjcCwICu2SScKgZUFSN9KQhq4FfjkD7AE5xIzT7d6Er7vOXKo="
     },
     {
         "id": "SB 553",
         "headline": "Data Center Water Use Transparency",
-        "short_summary": "This legislation mandates that data centers report their water consumption, providing transparency and data for potential future water management policies.",
+        "short_summary": "This bill mandates local water authorities to report data centers' water consumption to the State Water Control Board, increasing transparency regarding their environmental impact.",
         "status": "Last Action: Acts of Assembly Chapter text (CHAP0896) on 2026-04-13",
         "sentiment_score": 60,
-        "supporters": "Senator Kannan Srinivasan, environmental groups, water conservation advocates, local governments.",
-        "opponents": "Data center industry (due to reporting burden/potential future regulation).",
+        "supporters": "Environmental groups, local communities, transparency advocates, Senator Kannan Srinivasan.",
+        "opponents": "Data center industry.",
         "impact_cost": "Neutral",
         "impact_co2": "Neutral",
         "impact_saifi": "Neutral",
-        "news_headline": "New Virginia Law Requires Data Center Water Usage Public",
-        "news_summary": "A new Virginia law, championed by Senator Kannan Srinivasan, mandates that local water authorities report data center water usage, making the numbers publicly available on the Department of Environmental Quality's website. This aims to provide transparency regarding data centers' water consumption, which has been a top complaint against the industry.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJbrDGpUbTub7dM3_ED21OioQENjCIemjo5UCZHkdPMiXv4bLwb7oSvtE6vau0y3qqIYlqyStcDzIR0yK43P9VVMKeslxciEaNcd-9lr-p6dkUqBTeu4x3geJU1XT_n7tXG8nvn6AS4xu5SSzyNqnnQCLjFHBDPHUuvAyd7Tc0Sv_KEddAGk14XKRz9SX1NVhk9Hv6fNqgwnzbDb1JLbiA"
+        "news_headline": "New Virginia Law Requires Data Center Water Usage Be Made Public",
+        "news_summary": "A new state law, championed by Senator Kannan Srinivasan, requires local water authorities to report data center water usage, which will be available on the Department of Environmental Quality's website. This aims to provide credible numbers and address concerns about the industry's significant water consumption.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwb3l9SVp5MfrMKwVvPwWWFKuXils1XclOtxYyqbeSURcfvZN6oNKpHEDQK50i3xRbWSsOik2bx42ZVksdQszR5YTYl3KwpNTlLqWGL1oExpqTS8lIiYK3Hm7L3_iICrFLMqaSc1b6cPbvRjqKUto-VllMrWaKJ3yUYUBN1zycn56cI4aJCPPyiYMSe3iNqTcywthihcz_shp7UA=="
     },
     {
         "id": "HB 153",
-        "headline": "Local Control Over Data Center Siting",
-        "short_summary": "This bill grants localities more authority to regulate the placement and noise levels of data centers, addressing community concerns about development impact.",
+        "headline": "Data Center Siting and Noise Regulation",
+        "short_summary": "This bill establishes a permit process for high energy use facilities, requiring site assessments for sound profiles and allowing localities to examine other environmental impacts before approval.",
         "status": "Last Action: Incorporated by Counties, Cities and Towns (HB153-Thomas) (Voice Vote) on 2026-01-23",
         "sentiment_score": 60,
-        "supporters": "Local residents, community groups, local governments, Delegate Thomas.",
-        "opponents": "Data center developers, real estate industry.",
+        "supporters": "Local communities, residents near proposed data centers, environmental groups, Del. Thomas.",
+        "opponents": "Data center industry, developers.",
         "impact_cost": "Neutral",
         "impact_co2": "Neutral",
-        "impact_saifi": "Decrease",
-        "news_headline": "Sterling Resident Reports Excessive Noise, Pollution from Data Center",
-        "news_summary": "A Sterling resident reported excessive noise and fumes from a data center's backup generators running for nearly 24 hours, exceeding local noise limits. This incident highlights ongoing community concerns about data center noise and pollution, which HB 153 aims to address through siting and noise regulations.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFS7hFuIm9E4CElEILfJH-OD3Xdy9RtDxDu9rz7WCSQrkkI__UNDI7DQZmjKD3WHT5o4MjDiMruxfwQk_ZssbO_E2FP1BQmQcVBUHK3UqUNYBsKp1fLK8vfqCYra75I0IeDZLKG8oDE_-QfaTsx4Nhp2a4-iwl5D0tolLwqorhHIP-DmcyNSNUu1PeUK7XyOtvTi5JeYmiJ_kFnPWgCXjkVTFbw6fRZ94wIvGoekCnTlPtdx1z0bL4d2zFpg_xS"
+        "impact_saifi": "Neutral",
+        "news_headline": "Sterling Resident Says Data Center's Generators Produced Excessive Noise",
+        "news_summary": "A Sterling resident reported excessive noise and fumes from a data center's backup generators running for nearly 24 hours during a power failure, forcing him to leave his home. This incident highlights the ongoing community concerns about data center noise pollution, which HB 153 aims to address by requiring sound profile assessments for new facilities.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWKjPXJc1PihyHWCeDli3dMdS0iHJIHdye-nSKx40ZpQI99QTXV8GKYGb_4PbXA5-tHogDtmtyytnYrTXIHFinvRSY86MiRABThP6wNEInEJwnI_3DpX5Nbab3JheCTlYC_lmCH8nGgNLWJxFPs6V-AsN9srOGH3BUnZqHQdXwpa_iGa9C9-97N5O17y7g3i2G9zZ-7ma18TdpJXdPPrSjqLiXYrJ3SiFNiKQoVobqfjaFojprb-YLyGWBF-Y4"
     }
 ]
