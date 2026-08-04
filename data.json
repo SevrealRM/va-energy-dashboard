@@ -1,47 +1,47 @@
 [
     {
         "id": "HB 1393",
-        "headline": "Large Energy User Grid Cost Shifting",
-        "short_summary": "This bill directs Dominion Energy to propose cost allocation changes to shift certain infrastructure costs to large energy users, aiming to reduce the burden on residential ratepayers.",
+        "headline": "Data Centers Pay Grid Costs",
+        "short_summary": "This bill requires large energy users, such as data centers, to bear more of the costs associated with their grid infrastructure demands, potentially reducing residential utility bills.",
         "status": "Last Action: Acts of Assembly Chapter text (CHAP1123) on 2026-05-14",
         "sentiment_score": 60,
-        "supporters": "Residential ratepayers, consumer advocacy groups, Governor's administration.",
-        "opponents": "Data center industry, large energy users.",
+        "supporters": "Residential consumer advocates, environmental groups, Senator L. Louise Lucas",
+        "opponents": "Data center industry, large industrial energy users",
         "impact_cost": "Decrease",
         "impact_co2": "Neutral",
-        "impact_saifi": "Neutral",
-        "news_headline": "Virginia mulls shifting major grid costs to data centers.",
-        "news_summary": "Virginia regulators are considering reallocating the multibillion-dollar cost of grid upgrades, currently spread across the public, to data center developers. The Governor's administration and consumer advocates argue data centers should pay for infrastructure driven by their demand.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlmX99VzDYxE2-AlLzjpxPYBg7e6ZV3wnKMohBdG1lP_F7da60Otn4a6-KEFDvAYywMkIfMSeMa3hw4bXcA5yaj0-ukruGz_y3e_ezYcTe60EOwk3ApDUo4wQDJuAc40f7oKtf51eqDvA_ai7VPOrCCUxtfmRhJguh8bEmJ95fjm3zJl2qEJF5xyd89d4-G2TfmgyePdV1d_MVghuQvARBMqr9W1WJtLqQcMe90sdZQ3tcehY9fg5pVA=="
+        "impact_saifi": "Decrease",
+        "news_headline": "Virginia bill aims to cut residential energy costs by shifting expenses to data centers",
+        "news_summary": "A Virginia bill, similar to HB 1393, aims to shift energy costs for increased generating capacity to data centers and other large energy users consuming 25 MW or more, potentially saving residential customers over $65 annually. This legislation seeks to address the growing energy demand from data centers, which currently account for about 20% of Dominion Energy's sales.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7ypKyovFjhoPcEAHa-FNJPnIihgkmMhj5Pl8FWHpOU6dbiWvFJYDt6TrGd2ZP2jQTqsetaWN_xPobMk02k-GDmfyX7HYgWbZD2MFV9h2RwsG4g484p-yNJLXdS10vM8w6keF0vWuUk7rc81ToAf_vJHeF0HYU5qcrUtLPg37LW7iMJAjwh2_AZrLuyb0IORuBgpqPQj9ZaIZIqzdrRO1ghDcEsaH_Iu3EMczvTKMZNAqFb8V2uOUY7PGZtCEh_lrBSKyBbRbbPM_QuGSjzsLmIesVm1QbPLQGeCEoqGZmlC13Lg=="
     },
     {
         "id": "SB 553",
-        "headline": "Data Center Water Use Reporting",
-        "short_summary": "This bill requires local water authorities to publicly report data centers' water consumption, increasing transparency regarding their environmental impact.",
+        "headline": "Data Center Water Use Transparency",
+        "short_summary": "This bill mandates waterworks operators to categorize and report water consumption data, including that of data centers, to the State Water Control Board, increasing transparency regarding their environmental footprint.",
         "status": "Last Action: Acts of Assembly Chapter text (CHAP0896) on 2026-04-13",
         "sentiment_score": 60,
-        "supporters": "Environmental groups, local communities, water conservationists, Senator Kannan Srinivasan.",
+        "supporters": "Environmental groups, water conservation advocates, State Sen. Kannan Srinivasan",
         "opponents": "Data center industry",
         "impact_cost": "Neutral",
         "impact_co2": "Neutral",
         "impact_saifi": "Neutral",
-        "news_headline": "New Virginia law requires data center water usage be made public.",
-        "news_summary": "A new Virginia law, effective January 1, 2027, mandates local water authorities to report data center water usage, making the information publicly available on the Department of Environmental Quality's website. This aims to address concerns about the industry's significant water consumption, particularly as it continues to grow.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGudlSlrWPda2BRH5qqz-jDChu2yD3-UieyXpUwLTrVi7d5s5PvB0kH08Ywz22qws8-8cQRZ1imP8bXJv35L4daY-uZyE-7NjVfoFaiZtLMp2FyQ5IRdc9dZDddaEI1r5CAO3ZGTxNBtAGCPCaKPSlqcWPdM537MQ-jjvi6YLpgXQz6OJv8a3J6iY5z0OdtKfk6UwwJCDWSOTUGxMGp_W1s"
+        "news_headline": "New regulations beef up data centers' required water use reporting in Virginia",
+        "news_summary": "New Virginia regulations, effective January 2027, will require waterworks operators to categorize and report monthly water sales data, including usage by data centers, to the State Water Control Board. This bill, carried by State Sen. Kannan Srinivasan, aims to increase transparency regarding data center water consumption, especially crucial during extended drought periods in Virginia.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4qM8xTuXZPItMRhaSB85B7XONu_l4GSPSVwjklx3azhSke9W-6pBnr7kEg7zycQp0e90rvbWZKu9NuPj986abvJ4vT9hXHUJCaxGfl1zIeSIaldOV17aKewCFaS7X_wGdw267SvzZ3F88JN-W7rmv5HAGNvTawuSOzbfoUQfFnc6gT34s-_6AiIVOgd7ic8Qg7n3rjbVzc1c05WavL5ic8OjvPefvLwUlJVN6zxeZsH1cs8ATXfw=="
     },
     {
         "id": "HB 153",
-        "headline": "Data Center Siting and Noise Limits",
-        "short_summary": "This bill requires site assessments for new high-energy use facilities, including data centers, to examine sound profiles and other environmental impacts on nearby residential areas and schools.",
+        "headline": "Local Control Over Data Center Siting",
+        "short_summary": "This bill grants localities more authority over where data centers can be built and sets requirements for site assessments, including sound profiles, addressing community concerns about noise and environmental impact.",
         "status": "Last Action: Incorporated by Counties, Cities and Towns (HB153-Thomas) (Voice Vote) on 2026-01-23",
         "sentiment_score": 60,
-        "supporters": "Local communities, residents, environmental advocates, Del. Josh Thomas.",
-        "opponents": "Data center industry, developers.",
+        "supporters": "Local governments, community groups, residential property owners, Del. Thomas",
+        "opponents": "Data center industry, economic development agencies",
         "impact_cost": "Neutral",
         "impact_co2": "Neutral",
         "impact_saifi": "Neutral",
-        "news_headline": "Data Center Bills Led 2026 Virginia General Assembly.",
-        "news_summary": "The 2026 Virginia legislative session focused heavily on data center regulation, with HB 153 introducing new siting requirements for large data centers. This bill mandates impact assessments on agriculture, parks, and historical sites before rezoning approval, laying a foundation for stronger future regulations.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvNelDpyL7FY85e87ZonxPmqDjnuLcn0jk3gk9VW5bFZAEkpGqZeND9--wKeOfB3WrYkfryKUHbL1fmicLHVI6h8iuSKlHGVRdGV7htB-FwhRRdnBXp6bDA7a1q6ZSBUZmLNduKGF3DT7puTDahwuANg64_IwZsqD2fptz0eWSECAk6c6eg0r0jw=="
+        "news_headline": "Data center noise irks Virginia neighbors: 'You just want to curse'",
+        "news_summary": "HB 153 introduces new siting requirements for large data centers, mandating impact assessments on noise for nearby residential units and schools, and allowing localities to examine effects on water, agriculture, and historic sites. This legislation reflects growing community concerns over noise pollution from data centers, which has become a significant issue for residents living near these facilities.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFClNUrCcKyLSILKpWfYF7Gx5usbyYVXG_4iKWX6L_0-EJiM_e14KMRiJ8bkjbcCvhR-aYb6Y72ZV0uI63RzC6G_PNbdnjKCNNJEKoM0-EByZZW60eP3I_EplxuTb4PdWjAZ_ZKAc8=="
     }
 ]
