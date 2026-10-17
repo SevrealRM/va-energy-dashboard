@@ -1,47 +1,47 @@
 [
     {
         "id": "HB 1393",
-        "headline": "Large Users Pay Grid Costs",
-        "short_summary": "This bill mandates that large energy users, such as data centers, bear the costs of grid infrastructure upgrades and capacity procurement, rather than residential ratepayers.",
+        "headline": "Data Center Grid Cost Shifting",
+        "short_summary": "This bill mandates that large energy users, primarily data centers, bear the costs of their increased electric generating capacity, preventing these costs from being passed to other ratepayers.",
         "status": "Last Action: Acts of Assembly Chapter text (CHAP1123) on 2026-05-14",
         "sentiment_score": 60,
-        "supporters": "Residential consumer advocates, Governor Abigail Spanberger (with amendments)",
-        "opponents": "Data center industry, large industrial users",
+        "supporters": "Residential ratepayers, consumer advocacy groups, potentially environmental groups.",
+        "opponents": "Data center industry, large energy users.",
         "impact_cost": "Decrease",
-        "impact_co2": "Neutral",
-        "impact_saifi": "Neutral",
-        "news_headline": "Virginia Legislature Bucks Governor's Amendments to Dominion-Backed Bill",
-        "news_summary": "This article details how HB 1393, along with SB 253, aims to assign certain electric grid upgrade costs to data centers, potentially saving typical residential customers $5.52 a month while increasing data center bills by 15%. It also mentions that the legislature rejected some of Governor Spanberger's suggested amendments that would have weakened the explicit cost-shift mechanism.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMCzDCw2gYsRRYNXpNIomm130RBKePDlKfCcQgJzGGEVCwUnTLMisP0SY8QbWl9HnP_qvBr1fdZ_jJ2OP5GpRrUZjH1VdMjqFCE53gTrOb8dhBFAmwCG-Lt9FvTlr9vDWw6XWJke1oQvyr5bk3HAz-w6OuVbAlUgDLEX25gt2aggKEA1dMp2mrTq4ZUQNmZo_u0XjPn4cHyHTtvH_39WM2U1iR0lPb2LpVbIYAy90HJQ=="
+        "impact_co2": "Decrease",
+        "impact_saifi": "Decrease",
+        "news_headline": "New Legislation Shifts Virginia Data Center Energy Costs to High-Demand Users",
+        "news_summary": "Virginia lawmakers passed legislation requiring data centers and other large energy users (25 MW or more) to pay for increased generating capacity costs, preventing these expenses from being passed to other customers. This measure is part of a broader effort to regulate the state's growing data center industry.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNTV63IIDUgnRTSQUBEo7kk3J1KV672QTuzkVkYfTADGcpMJUiI48akvEdiDRp1KYiYmh0D8qR6R04dR9RmcbEnjRHvHH0U8j55_lkwNqsRp6RXk454HNgd7BgXGENZ0gkxFwbwNM5VwPpK1ZjnoCqDEitS1fHC9zK_GZOIJ1DJoxcQCueESNu90g6pEPqJAIvNk6edPwMY6YJfruadwCowQ8DRMyIaywfxnTASZbAwA=="
     },
     {
         "id": "SB 553",
         "headline": "Data Center Water Use Reporting",
-        "short_summary": "This bill requires water utilities providing water to data centers to report the total volume of potable and reclaimed water consumed by these facilities to the State Water Control Board.",
+        "short_summary": "This bill requires water utilities to report monthly or quarterly on the volume of water supplied to data centers, increasing transparency on their water consumption.",
         "status": "Last Action: Acts of Assembly Chapter text (CHAP0896) on 2026-04-13",
         "sentiment_score": 60,
-        "supporters": "Environmental groups, water conservation advocates, Governor Abigail Spanberger (via Executive Order 22)",
-        "opponents": "Data center industry (due to increased reporting burden)",
+        "supporters": "Environmental groups, water conservation advocates, transparency advocates, local communities.",
+        "opponents": "Data center industry (due to compliance burden), potentially those against increased regulation.",
         "impact_cost": "Neutral",
         "impact_co2": "Neutral",
         "impact_saifi": "Neutral",
         "news_headline": "As They Consider New Data Centers, States Target Water Use",
-        "news_summary": "This article discusses how states, including Virginia with HB 496 and SB 553, are increasingly focusing on data center water consumption. It highlights that these bills require water suppliers to report the volumes of potable and reclaimed water delivered to data centers, aiming for greater transparency and planning.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAbE3kSj2f7abPfqp3qotrt5CAURSFs8AVQyy_5lb9RXDrtuqzpjjV3iUqRg6RRBwHeALae5xJALt5rQQkk3cKeN6pjIXNgMqitieHyrwk9CyqGHPI_puZVJ8PxxJ4EVVfDDfDqfgy78zzwIpq-2U6SmyCu1AAC8ALMGonJZ3G91RFu0Bnjm0oPBrAaPModtfoUbrC6XvVk5LlT_KdXeDGrmFc5MOQQjQw"
+        "news_summary": "Virginia, along with other states, has enacted legislation like SB 553 to require water suppliers to report data center water consumption, aiming to provide transparency and help states understand projected and actual water demands from these facilities. This comes as lawmakers increasingly scrutinize data center resource use.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw_qZvT4v9ubHsjksUeBLE3tqVhOSaCMuL-a3nMx7AWrD2izGX_rvxPS6o4hJia9aN7_9rVX9qy-LoEnupBOfPf5Ire8HR1FGPmL3itakC3bW8cd-SzQIGJS6MCJZ9WmDq9PvjSpWSwufBkcuPpozsb3DfsrNiPfO2CTX81SP45KIcqf36JkqP97QvFnENFxCxpMArWBnt2nWZCBYeElKTp8l9fvOSD2sW"
     },
     {
         "id": "HB 153",
-        "headline": "Data Center Siting and Noise",
-        "short_summary": "This bill requires site assessments for new high energy use facilities, including data centers, to examine their sound profile on nearby residential units and schools, and grants localities more authority over siting.",
+        "headline": "Data Center Siting and Noise Limits",
+        "short_summary": "This bill establishes a new permit process for high-energy-use data centers, requiring site assessments for noise impacts on nearby residences and schools, and allowing localities to assess other environmental and land-use effects.",
         "status": "Last Action: Incorporated by Counties, Cities and Towns (HB153-Thomas) (Voice Vote) on 2026-01-23",
         "sentiment_score": 60,
-        "supporters": "Local communities, residential groups, Del. Joshua E. Thomas, Del. Sam Rasoul",
-        "opponents": "Data center developers (due to potential restrictions and increased assessment requirements)",
+        "supporters": "Local communities, residents near potential data center sites, environmental groups concerned about local impacts.",
+        "opponents": "Data center developers (due to potential restrictions on site selection and increased development costs).",
         "impact_cost": "Neutral",
         "impact_co2": "Neutral",
         "impact_saifi": "Neutral",
-        "news_headline": "A Roanoke Delegate Helped Write Virginia's New Data Center Law",
-        "news_summary": "This article explains that HB 153, which took effect July 1, 2026, requires developers of large data centers to conduct site assessments examining noise impacts on homes and schools within 500 feet. It also clarifies that while the law mandates studies, it does not set specific noise limits or water caps, leaving some discretion to local authorities.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIdp9hB8DbVuRpFyE9JIG_WKPWVn_Lzri-hHCgbHdx7AhcTIoBE5v8Yc1sDHg9BNFsIN_f47tejWZJXH6BQCtiyMPCBJqHE69gIoESTGgGFLsnCrMQQ2Mq0OGJ-xzes0KgEVkVyuw_eAwRiShgqbOCJIzll42HBs9ui2Bv6ZxudjDpd6HkQjQw"
+        "news_headline": "Data Center Siting Restrictions Virginia Passed This Year",
+        "news_summary": "Virginia passed new data center siting restrictions, including a permit process for facilities over 100 MW that requires sound assessments near homes and schools. Localities can also demand impact assessments on water, agriculture, and historic sites before approving projects, reflecting growing community concerns.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNTV63IIDUgnRTSQUBEo7kk3J1KV672QTuzkVkYfTADGcpMJUiI48akvEdiDRp1KYiYmh0D8qR6R04dR9RmcbEnjRHvHH0U8j55_lkwNqsRp6RXk454HNgd7BgXGENZ0gkxFwbwNM5VwPpK1ZjnoCqDEitS1fHC9zK_GZOIJ1DJoxcQCueESNu90g6pEPqJAIvNk6edPwMY6YJfruadwCowQ8DRMyIaywfxnTASZbAwA=="
     }
 ]
