@@ -1,47 +1,47 @@
 [
     {
         "id": "HB 1393",
-        "headline": "Large Energy Users Pay Grid Costs",
-        "short_summary": "This bill directs Dominion Energy Virginia to propose rate structures that allocate costs for increased generation capacity and distribution infrastructure to large energy users (25 MW or more), rather than residential ratepayers.",
+        "headline": "Shift Grid Costs to Large Users",
+        "short_summary": "This bill directs Dominion Energy to propose allocating certain capacity and distribution infrastructure costs to large energy users (25 MW or greater), aiming to prevent these costs from being passed to residential customers.",
         "status": "Last Action: Acts of Assembly Chapter text (CHAP1123) on 2026-05-14",
         "sentiment_score": 60,
-        "supporters": "Residential ratepayers, consumer advocacy groups, Governor Spanberger's administration.",
-        "opponents": "Data center industry, large industrial energy users.",
+        "supporters": "Utilities (for cost recovery mechanisms), large electricity customers (potentially for more transparent cost allocation), Governor's office (as part of broader energy plan).",
+        "opponents": "Not explicitly stated, but potentially large energy users if they face increased costs without corresponding benefits.",
         "impact_cost": "Decrease",
         "impact_co2": "Neutral",
         "impact_saifi": "Neutral",
-        "news_headline": "Virginia energy plan targets data-center costs, rising demand.",
-        "news_summary": "Virginia's 2026 Energy Plan recommends that data centers pay for the additional generation, transmission, and distribution costs they create, rather than shifting these costs to households and small businesses. This aligns with the intent of HB 1393 to ensure fairer cost allocation for major new customers.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRcNL2kElmZOlZozbj_6buwMJnxq3BZQY3K55hIcPVC2qM0YMCl463TrUyGUERHuhYxuSUY57LuVP0-7_TQhOr9MuIkwiU1dXgLFs81h8ivJoaF-e5iGfiRVqV11JlCzHAc9E9ByFkDp88m06l6eN5qw482g0hTZks88xb6zNhXpvEibouhpHIXNXkTVNg=="
+        "news_headline": "Virginia Energy Plan Targets Utility Costs, Data Center Growth",
+        "news_summary": "Virginia's new energy plan proposes requiring utilities to share fuel costs and making data centers pay for the electricity infrastructure costs they create. The plan aims to prevent these costs from being fully passed on to residential customers and includes recommendations for large data centers to demonstrate demand reduction during grid emergencies.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm-L5oSkiDDsIjHw6H40T1doDgWhWL_wDCTfO9LyNoWBBOkr6buYXIm4YOI3TvS5QU920LXoGR0lB7q1VnTShFwLmMdnrqiVGqyrpCGcEBZJuBnSghROdect83YHxBJokpJt8SM5CRBNBZFIOYnSYFuxU4UwzgAeWSu-Eyw1G71y22hROT_DTH_PvdV1qm_aefN1XUQxKl3OvQ=="
     },
     {
         "id": "SB 553",
-        "headline": "Data Centers Report Water Usage",
-        "short_summary": "This bill mandates that water users providing water to data centers report total potable and reclaimed water volumes to the State Water Control Board, enhancing transparency on water consumption.",
+        "headline": "Mandate Data Center Water Reporting",
+        "short_summary": "This bill requires water users providing water to data centers to report the total volume of water, including reclaimed water, to the State Water Control Board monthly, enhancing transparency and informing water resource decisions.",
         "status": "Last Action: Acts of Assembly Chapter text (CHAP0896) on 2026-04-13",
         "sentiment_score": 60,
-        "supporters": "Environmental groups, local communities, water conservationists, Senator Kannan Srinivasan.",
-        "opponents": "Data center industry (due to reporting burden/potential scrutiny).",
+        "supporters": "Senator Kannan Srinivasan, Del. Liz Guzman (for similar HB 496), Virginia League of Conservation Voters, community advocates.",
+        "opponents": "Not explicitly stated, but potentially data center industry if they view reporting as burdensome.",
         "impact_cost": "Neutral",
         "impact_co2": "Neutral",
         "impact_saifi": "Neutral",
-        "news_headline": "As They Consider New Data Centers, States Target Water Use.",
-        "news_summary": "States are increasingly focusing on data center water use, with Virginia's SB 553 requiring water suppliers to identify potable and reclaimed water volumes delivered to data centers. This legislation aims to provide clarity on projected and actual water demand.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp6vqdGQAXv0s_x21lCD2XrLcDWGE3Eqn5OrgDgl2AaNqlob4HsU6gRnBBdjuFtfE4hoq1-94eloCeEDKOBGehb6oHSUuw6nbMEJJ5ssJ46bzer5gemtiyV8Rath5c-2aOlw2vIUtF-tVgTNhfAL6PMyAxgQmSTotDYp7tGmtSTC2u6FP-ZDu-bm7sPr53pjXWwm9YMjbsIgMwTz_BzVOZZkXIBUQRwOFyehAKI9GJ6baLHqzB_O2Als0pAoJZg=="
+        "news_headline": "Bills on Data Center Siting and Water Usage Await Governor's Signature",
+        "news_summary": "Senate Bill 553, which increases reporting requirements for data center water usage, was awaiting the Governor's signature. Supporters highlight that the bill brings transparency to water use, providing state regulators with better information for decision-making.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQ5vsnuXDSX_KZISYbN-2SVmqdkQ0g7BDpC9oC_csLFA-qIyS49XW8cpkZO_msydz2p5NVGMj3m0fYfGFmdZOpIJQx9FlmEjmWuyik_VU63_OzXD7Fm7TRCGW64YjqnuObtAwZIkNtoIOkuvhe1bgIP48o8PldaUpZooca5x49x2JJLqGHqR7iIddu24ku8yQLIPIN8M0FkIoxQDMJznSZSvwSEI-UzM5SHfX9zSG-qVWPh07rkAPN_3gi-5mkQCcBIAix"
     },
     {
         "id": "HB 153",
-        "headline": "Localities Assess Data Center Siting, Noise",
-        "short_summary": "This bill requires site assessments for new high-energy use facilities, including sound profile studies near residential areas and schools, and allows localities to consider impacts on water, agriculture, and historic sites.",
+        "headline": "Regulate Data Center Siting and Noise",
+        "short_summary": "This bill establishes a permit process for high energy use facilities (HEUF) requiring site assessments for sound profiles near residential areas and schools, and allows localities to assess impacts on water, agriculture, and historic sites.",
         "status": "Last Action: Incorporated by Counties, Cities and Towns (HB153-Thomas) (Voice Vote) on 2026-01-23",
         "sentiment_score": 60,
-        "supporters": "Local communities, residents near potential data center sites, environmental groups, Delegate Joshua Thomas, Delegate Sam Rasoul.",
-        "opponents": "Data center developers, real estate industry (due to increased regulatory burden and potential restrictions).",
+        "supporters": "Del. Joshua Thomas, Del. Sam Rasoul, community advocates concerned about noise and water usage.",
+        "opponents": "Not explicitly stated, but potentially data center developers due to increased regulatory hurdles.",
         "impact_cost": "Neutral",
         "impact_co2": "Neutral",
         "impact_saifi": "Neutral",
-        "news_headline": "A Roanoke Delegate Helped Write Virginia's New Data Center Law.",
-        "news_summary": "Virginia's new law, HB 153, requires developers of large data centers to conduct site assessments, including noise studies for homes and schools within 500 feet. While it mandates studies, it does not set specific noise limits or water caps, leaving some discretion to local authorities.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE97c2CX6Mk6Aa9TM8S9C7gMD1Hf7vggpX1dL3KNQAzjmSd_K8m6xOxjNXIfxUHg22K4zoSFQk5vwlAh-yyzxg9jdo8jx_0lptFCcM-HjQMfsZbpma7hE6EtvZ6UlGBkX6dzY4fAtkhvZHHC3l7LcGZbnfYZj5qGGB-2UPhh84x-45au8Au9QU7K-A0bwri9P9JDATDQjg6VqD-nDZxEqmq6t9FYPIqCydn7fTwzXv30JvzCI3q0BH9_bwfmbrL2A=="
+        "news_headline": "A Roanoke Delegate Helped Write Virginia's New Data Center Law",
+        "news_summary": "This new law, which took effect July 1, 2026, requires developers of large data centers to study noise and for utilities to disclose substations. While it mandates studies, it does not set specific limits on noise, water usage, or setbacks, leaving those decisions to local officials.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1VCsC_EpsuQdjJmlfZAIGThNj1n8WrD4ClOgWx1TltpCY4C9EdoSTIpoVRWpAyk6tbzbJD261Rs_gbislftxT4vWboEqDWKO_UuC8OsMg4e_wFqwTKiYrkQsak_8TopKse8afMKVj03BHKb3_sB6Iq1p-jdogqJQildPfsM_fDZCuYxWbZ0Y2VB8BFbbyjV7hE-8XBSbgXPlRRoExf0Za4LwrvBNrttyp6yBaZxstcVf6TpBx0u4eon-Cs0QsYA=="
     }
 ]
