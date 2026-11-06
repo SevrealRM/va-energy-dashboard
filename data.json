@@ -1,47 +1,47 @@
 [
     {
         "id": "HB 1393",
-        "headline": "Shift Grid Costs to Large Energy Users",
-        "short_summary": "This bill aims to make large energy users, such as data centers, responsible for their own grid infrastructure costs, potentially reducing the burden on residential ratepayers.",
+        "headline": "Large Energy User Grid Cost Shifting",
+        "short_summary": "This bill mandates that large energy users, such as data centers, bear the costs of new grid infrastructure required to serve their high demand, rather than socializing these costs across all ratepayers.",
         "status": "Last Action: Acts of Assembly Chapter text (CHAP1123) on 2026-05-14",
         "sentiment_score": 60,
-        "supporters": "Residential ratepayers, consumer advocacy groups, Governor's administration.",
-        "opponents": "Data center industry, large industrial energy users.",
+        "supporters": "Residential ratepayers, consumer advocacy groups, Governor Spanberger's administration",
+        "opponents": "Data center industry, large industrial energy users",
         "impact_cost": "Decrease",
         "impact_co2": "Neutral",
         "impact_saifi": "Neutral",
-        "news_headline": "Virginia mulls shifting major grid costs to data centers",
-        "news_summary": "Virginia regulators are considering how data center developers should shoulder more of the costs for transmission projects, which are currently spread across the public. State residents have paid billions for data center-related transmission lines since 2021, prompting calls from consumer and environmental advocates to shift these costs to the industry.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEACZHJ94bkI_Cc-n4SOkpCQc29D63Pjul4CfTvLGc2koHm-zqOmX5PbImZWKV0T3y8qiYsHAw3pmJNsrn0Sp7Q3nC78sId3jc0Xj2Sdj5QuaDVDt6LN6I-pK1W0ca9WQeKlZr8_RfIAWH8FGKrve6TfBOiXb2FdDBVkwLsd3ydDR8ichamqGmlqjssNYhAMynKzOB1iEqba_sAJJ75e97ig1cW2yqu8OYZGyqk7oFhWE3ORgHon1w"
+        "news_headline": "Governor Urges SCC: Data Centers Must Pay for Infrastructure",
+        "news_summary": "Governor Abigail Spanberger urged the State Corporation Commission (SCC) to require data centers to cover the cost of transmission infrastructure built exclusively for them. This decision aims to save Virginia families and small businesses hundreds of millions of dollars by preventing these costs from being passed on to other ratepayers.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_crq2kpC87ziuXYs8d-09oz250A38Lk91UBaPC_l_3IGI7pHYLI3L4KempDGagfWcCfE1NLxuQAS17qfrImJzHwGRJUrmlkurbZO5HWNGleKunQT533JtuqyGxDawL7D8CbD7qHm9cWc7zWZ91udppQU4IPjSlqVXzFkqhn39ceSwT_eUoD68AG44HHnW3iJHtZHCpZQ7hfbFfyBn"
     },
     {
         "id": "SB 553",
-        "headline": "Mandate Data Center Water Use Reporting",
-        "short_summary": "This bill requires water suppliers to report water volumes provided to data centers, enhancing transparency and aiding state environmental planning.",
+        "headline": "Data Center Water Consumption Reporting",
+        "short_summary": "This bill mandates water utilities to report the total volume of water supplied to data centers, enhancing transparency and providing critical data for water resource planning.",
         "status": "Last Action: Acts of Assembly Chapter text (CHAP0896) on 2026-04-13",
         "sentiment_score": 60,
-        "supporters": "Environmental groups, local governments, water conservationists, Senator Kannan Srinivasan.",
-        "opponents": "Data center industry.",
+        "supporters": "Environmental groups, local communities, water conservation advocates, Senator Kannan Srinivasan",
+        "opponents": "Data center industry",
         "impact_cost": "Neutral",
         "impact_co2": "Neutral",
         "impact_saifi": "Neutral",
-        "news_headline": "New regulations beef up data centers' required water use reporting in Virginia",
-        "news_summary": "New regulations, effective January 2027, will increase transparency on data center water usage in Virginia by requiring waterworks operators to categorize and report monthly sales data to data centers. This legislation, championed by Senator Kannan Srinivasan, aims to fill a data gap for state environmental quality and water supply planning, especially during droughts.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGE6tYeeewdcF2y1FkQdMugaNehGENW3MPSMSGN8JktQzGtzKr6FR1rdcnNfV9FV_qfneEWZlOcZrV14g5HlziWoifjyfJNH0Dmq97F7y8qPhTI9pm8hDi_gQcDJGj-ysNwcVESSMfD83gnBYw8LDQBj5bGtPCpDD5m-HNH7EcAKfJhWtn-EW5eJS-hQXXHzhH0k2zB1mwCbrc7-jCsdI6gXp4dRY4IkXWh-OisDG-O1D-N9g=="
+        "news_headline": "Virginia Lawmakers Approve Data Center Water Use Tracking",
+        "news_summary": "The Virginia General Assembly passed SB 553, requiring water suppliers to report the total volume of water provided to data centers. This legislation aims to strengthen water-use reporting and provide better data for understanding the industry's impact on Virginia's water resources, especially as data centers expand.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElzMw8OVlWT6y4ahalzdbCJ5nh6Gd6qs0kZ8w_1ggC9rW50_tmjy9Nj_iXchQJQTBE8GWr9oCbR2hMsJ0kj2RoF-irs-PaAQ7Q2qwYOOI6XqnLGFDReMjkavOXA4SJI5RDsuy271csKSUIaRTAKu9w4SQfg3E8dTM69uECOYtaBJB8fQrhhDkUWrKOaV3l1-n1uFla9xnn7xqdOHDgtIi6gCyCJamtzkXCtpycIbQVm2HRH2A3frXh5w=="
     },
     {
         "id": "HB 153",
-        "headline": "Regulate Data Center Siting and Noise",
-        "short_summary": "This bill mandates site assessments for noise impacts and allows localities to require additional impact reviews for new large data centers, empowering communities in development decisions.",
+        "headline": "Data Center Siting and Noise Limits",
+        "short_summary": "This bill establishes a permit process for high energy use facilities, requiring site assessments for sound profiles near residential areas and allowing localities to assess other environmental impacts.",
         "status": "Last Action: Incorporated by Counties, Cities and Towns (HB153-Thomas) (Voice Vote) on 2026-01-23",
         "sentiment_score": 60,
-        "supporters": "Local communities, residents near data centers, environmental advocates, Virginia League of Conservation Voters.",
-        "opponents": "Data center developers, real estate industry.",
+        "supporters": "Local communities, residents near data centers, environmental advocates, Virginia League of Conservation Voters",
+        "opponents": "Data center industry, developers",
         "impact_cost": "Neutral",
         "impact_co2": "Neutral",
         "impact_saifi": "Neutral",
-        "news_headline": "A Roanoke Delegate Helped Write Virginia's New Data Center Law. Here's What It Does, and What It Doesn't",
-        "news_summary": "A new Virginia law, effective July 1, 2026, requires developers of the largest data centers to conduct site assessments examining noise impacts on nearby residential units and schools within 500 feet. While the law mandates studies and disclosures, it does not set specific noise limits, water caps, or setbacks, leaving some community advocates wanting more stringent regulations.",
-        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz3Hc-dEXkZT1a5Lo4FbEn4VIO0sfFP7dSkX76KS8Z_fABte9drZ3b4d7xOpXdyeJvHm4VWMA2upjOk-xzIlqscR4H-4pgInbQeOQwHqzxfRVX69CsHX2c2EEyR8ENMKMAG3V1tgptk8FaAR4ZN3NI7rRA1jYkNe-JqDtdLSu3ntwxCHM_5vmP567vQezXjDD98LYlOGsbVJ1D1tU210vglw4oZfXoQYsj6zKANQ9IBbOxvigMsmpqT0uPtKHw"
+        "news_headline": "Virginia's New Data Center Siting Law Explained",
+        "news_summary": "Virginia's new law, HB 153, requires developers of large data centers to conduct noise studies for homes and schools within 500 feet of a proposed site. While it mandates studies and allows localities to assess other impacts like water and historic resources, it does not set specific noise limits or water caps, leaving some discretion to local authorities.",
+        "news_link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4PIX1eG0_6XTHr_l7kM8gB4XLudx_cfhtDgtqyrK1zyjOi8P_cd3nu1BxnsPkc6QruAt3S0fbg6AlVj3PtQ8B6Fkz3yms5Kzh3Hk0ckn1radU4GQ40TvfoE14GW-xfrLHNLywricKdpyRbHdY-vSt5oauTH_w-WQRzd-waNXKgyyUH2MHDV2qV7XjxsjlxDBQScKPgA_5UclMbm3VkYe5nHrMAfTKnXbsOqOL_sfzlGSV2ogmxCqf1X1RZOAXA=="
     }
 ]
